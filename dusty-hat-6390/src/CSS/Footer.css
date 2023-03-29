@@ -1,0 +1,19 @@
+.text-hover:hover {
+  color: #ccd5ae;
+  cursor: pointer;
+}
+
+.text-hover {
+  margin: 5px 0px;
+}
+
+.email-input {
+  padding: 10px 20px;
+  border: 1px solid black;
+}
+
+.email-button {
+  padding: 11px;
+  background-color: black;
+  color: white;
+}

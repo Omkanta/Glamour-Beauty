@@ -28,8 +28,20 @@ const AllImages2 = [
 const HomePage = () => {
   const [ImageUrl1, setImageUrl1] = useState(AllImages1[0]);
   const [ImageUrl2, setImageUrl2] = useState(AllImages2[0]);
-
+  const [Width, setWidth] = useState(window.innerWidth);
   let IntervalId = useRef();
+
+  const DetectWindowSize = () => {
+    setWidth(window.innerWidth);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", DetectWindowSize);
+
+    return () => {
+      window.removeEventListener("resize", DetectWindowSize);
+    };
+  }, [Width]);
 
   const StartCaurosel = () => {
     let index = 0;
@@ -92,7 +104,7 @@ const HomePage = () => {
           size="lg"
           style={{
             borderBottom: "5px solid #a5a58d",
-            width: "22%",
+            width: Width > 1350 ? "30%" : Width > 500 ? "60%" : "90%",
             margin: "auto",
           }}
         >
@@ -165,7 +177,7 @@ const HomePage = () => {
           size="lg"
           style={{
             borderBottom: "5px solid #a5a58d",
-            width: "30%",
+            width: Width > 1350 ? "30%" : Width > 500 ? "60%" : "90%",
             margin: "auto",
           }}
         >
@@ -246,7 +258,7 @@ const HomePage = () => {
           size="lg"
           style={{
             borderBottom: "5px solid #a5a58d",
-            width: "30%",
+            width: Width > 1350 ? "30%" : Width > 500 ? "60%" : "90%",
             margin: "auto",
           }}
         >
@@ -300,7 +312,7 @@ const HomePage = () => {
           size="lg"
           style={{
             borderBottom: "5px solid #a5a58d",
-            width: "30%",
+            width: Width > 1350 ? "30%" : Width > 500 ? "60%" : "90%",
             margin: "auto",
           }}
         >
@@ -406,7 +418,7 @@ const HomePage = () => {
           size="lg"
           style={{
             borderBottom: "5px solid #a5a58d",
-            width: "15%",
+            width: Width > 1300 ? "15%" : Width > 500 ? "30%" : "80%",
             margin: "auto",
           }}
         >
