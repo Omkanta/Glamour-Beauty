@@ -1,0 +1,1989 @@
+{
+  "Products": [
+    
+      {
+        "type": "foundation",
+        "name": "Nykaa SkinShield Anti-Pollution Matte Foundation",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/f/ef153f68904245707408_rev1.jpg",
+        "price": 400,
+        "MRP": 700,
+        "id": "1"
+      },
+      {
+        "type": "foundation",
+        "name": "M.A.C Studio Fix Fluid SPF 15",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/3/a3ee29a773602103591_rv__1.jpg",
+        "price": 2950,
+        "MRP": 0,
+        "id": "2"
+      },
+      {
+        "type": "foundation",
+        "name": "Lakme Absolute Skin Dew Serum Foundation",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/d/fdedcfcLAKME00000601_2.jpg",
+        "price": 875,
+        "MRP": 875,
+        "id": "3"
+      },
+      {
+        "type": "foundation",
+        "name": "Kay Beauty Hydrating Foundation",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/8/b8d84e88904330902602_1.jpg",
+        "price": 900,
+        "MRP": 120,
+        "id": "4"
+      },
+      {
+        "type": "foundation",
+        "name": "Maybelline New York Fit Me Matte+Poreless Liquid",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/6/6/66e316c6902395646860.jpg",
+        "price": 419,
+        "MRP": 599,
+        "id": "5"
+      },
+      {
+        "type": "kajal",
+        "name": "Mamaearth Charcoal Black Long Stay Kajal Black Waterproof",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/a/ea5058a8906087776758__1_.jpg",
+        "price": 263,
+        "MRP": 299,
+        "id": "6"
+      },
+      {
+        "type": "kajal",
+        "name": "IBA Must Have Complete Makeup Box (Fair)",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/f/3fc4da8IBAHA00000088_1.jpg",
+        "price": 358,
+        "MRP": 551,
+        "id": "7"
+      },
+      {
+        "type": "kajal",
+        "name": "Blue Heaven Herbal Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/9/c941190NYBH000000713_1.jpg",
+        "price": 60,
+        "MRP": 70,
+        "id": "8"
+      },
+      {
+        "type": "kajal",
+        "name": "Iba All Day Kohl Kajal (Intense Black)",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/0/c/0c9b74d8906074711663_main.jpg",
+        "price": 199,
+        "MRP": 249,
+        "id": "9"
+      },
+      {
+        "type": "kajal",
+        "name": "Lotus Make-Up Divine Dew Herbal Sindoor Combo",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/n/y/nybndlhr00011.jpg",
+        "price": 231,
+        "MRP": 330,
+        "id": "10"
+      },
+      {
+        "type": "wedding kit",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/e/8e623c98904409738828_1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "11"
+      },
+      
+      {
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/7/c/7c1a45d8903380022261_1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "12"
+      },
+      {
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/7/2/723671c8901526301614_1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "13"
+      },
+      {
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/c/cc4a238BLUEH00000391_1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "14"
+      },
+      {
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/d/9d870c58904245701611_0.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "15"
+      },
+      {
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/7/f/7f58e57KAYBE00000048_1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "16"
+      },
+      {
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/4/24184_h-8901030693120.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "17"
+      },
+      {
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/e/9e606d2insig00000040_1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "18"
+      },
+      {
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/c/dce3e57KAYBE00000049_1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "19"
+      },
+      {
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/7/8/78b2401FACES00000441_1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "21"
+      },
+      {
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/p/k/pk3_2.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "20"
+      },
+      {
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/a/aa5f2a2IBAHA00000007New1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "22"
+      },
+      {
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/4/9/494e59c8901526105779_2.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "23"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/2/d2deec223850_H-8901030606274.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "24"
+      },
+      {
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/a/5a78270CHAMB00000091_1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "25"
+      },
+      {
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/f/2fa3b7bPRAUS00000062_1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "26"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/1/4/14be017SUGAR00000054_1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "27"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/6/f6fecc18903380157956_2.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "28"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/e/ae61c8f8903380159448_1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "29"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/3/23997_h-8901030644535.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "30"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/2/b2deca28904245700829_rev1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "31"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/0/b/0b4f0c58904245701505_0.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "32"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/8/38762da8904245707347_rev1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "33"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/4/b/4be13ef8904245711023_1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "34"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/9/8904245705114_1_1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "35"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/a/8af22daNYKAC00000165_1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "36"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/6/a62c6cb23657_H-8901030824999.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "37"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/e/3e060daLAKME00000458_3.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "38"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/1/d1a669229370_S1_8901030911903.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "39"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/0/2/02e31d424030_H-8901030654886.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "40"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/8/f8361d424452_H-8901030742446.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "41"
+      },
+      {
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/0/a/0ac76cb24859_H-8901030794773.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "131"
+      },
+      {
+        "type": "foundation",
+        "name": "L'Oreal Paris",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/e/eeb32688906148971078_1.jpg",
+        "price": 963,
+        "MRP": 899,
+        "id": "132"
+      },
+      {
+        "type": "foundation",
+        "name": "L'Oreal Paris",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/b/abcdefgSMASH00000204_1.jpg",
+        "price": 963,
+        "MRP": 899,
+        "id": "133"
+      }, {
+        "type": "foundation",
+        "name": "Lakme",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/f/3fc42a2IBAHA00000088New1.jpg",
+        "price": 963,
+        "MRP": 899,
+        "id": "134"
+      }, {
+        "type": "foundation",
+        "name": "Lakme",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/b/eb773e7LAKME00000477_1.jpg",
+        "price": 963,
+        "MRP": 899,
+        "id": "135"
+      }, {
+        "type": "foundation",
+        "name": "L'Oreal Paris",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/e/9eb2af7MAYBE00000262_1.jpg",
+        "price": 963,
+        "MRP": 899,
+        "id": "136"
+      }, {
+        "type": "foundation",
+        "name": "Lakme",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/c/dcdc956607710019720_1.jpg",
+        "price": 963,
+        "MRP": 899,
+        "id": "137"
+      }, {
+        "type": "foundation",
+        "name": "Sugar Cosmetics",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/b/3b01c8f8903380002621_1.jpg",
+        "price": 963,
+        "MRP": 899,
+        "id": "138"
+      }, {
+        "type": "foundation",
+        "name": "Maybelline",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/a/2aef7073600522862383_1.jpg",
+        "price": 963,
+        "MRP": 899,
+        "id": "139"
+      }, {
+        "type": "foundation",
+        "name": "Lakme",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/9/5981dbb3592495947054_1.jpg",
+        "price": 963,
+        "MRP": 899,
+        "id": "140"
+      }, {
+        "type": "foundation",
+        "name": "L'Oreal Paris",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/7/5/757ecadMAMAE00000769_1.jpg",
+        "price": 963,
+        "MRP": 899,
+        "id": "141"
+      }, {
+        "type": "foundation",
+        "name": "Maybelline",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/4/e4992da8904245704087_1.jpg",
+        "price": 963,
+        "MRP": 899,
+        "id": "142"
+      }, {
+        "type": "foundation",
+        "name": "L'Oreal Paris",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/1/0/1037a1e3600523614516_1.jpg",
+        "price": 963,
+        "MRP": 899,
+        "id": "143"
+      }, {
+        "type": "foundation",
+        "name": "Maybelline",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/0/6/066c2d28901030678264_1.jpg",
+        "price": 963,
+        "MRP": 899,
+        "id": "144"
+      }, {
+        "type": "foundation",
+        "name": "L'Oreal Paris",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/c/ec6ba1eLOREA00000403_1.jpg",
+        "price": 963,
+        "MRP": 899,
+        "id": "145"
+      }, {
+        "type": "foundation",
+        "name": "Lakme",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/a/8ad53b78906090492904_1.jpg",
+        "price": 963,
+        "MRP": 899,
+        "id": "146"
+      }, {
+        "type": "foundation",
+        "name": "L'Oreal Paris",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/0/a/0a4254dDAIAA00000266_10.jpg",
+        "price": 963,
+        "MRP": 899,
+        "id": "147"
+      }, {
+        "type": "foundation",
+        "name": "Maybelline",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/6/7/67e7132NYKAC00000217_1.jpg",
+        "price": 963,
+        "MRP": 899,
+        "id": "148"
+      }, {
+        "type": "foundation",
+        "name": "Maybelline",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/1/81671cf8904330902510_1.jpg",
+        "price": 963,
+        "MRP": 899,
+        "id": "149"
+      }, {
+        "type": "foundation",
+        "name": "Maybelline",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/7/875b9d86902395685715_1.jpg",
+        "price": 963,
+        "MRP": 899,
+        "id": "150"
+      }, {
+        "type": "foundation",
+        "name": "Lakme",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/1/c1801d422769_H-8901030366086.jpg",
+        "price": 963,
+        "MRP": 899,
+        "id": "151"
+      }, {
+        "type": "foundation",
+        "name": "Lakme",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/d/5d613cdhudab00000154_new_1.jpg",
+        "price": 963,
+        "MRP": 899,
+        "id": "152"
+      }, {
+        "type": "foundation",
+        "name": "L'Oreal Paris",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/6/d605af7MAYBE00000462_1.jpg",
+        "price": 963,
+        "MRP": 899,
+        "id": "153"
+      }, {
+        "type": "foundation",
+        "name": "Maybelline",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/8/88319ccMACXX00000307_1.jpg",
+        "price": 963,
+        "MRP": 899,
+        "id": "154"
+      }, {
+        "type": "foundation",
+        "name": "Lakme",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/4/2/427c894773602042951_0.jpg",
+        "price": 963,
+        "MRP": 899,
+        "id": "155"
+      }, {
+        "type": "foundation",
+        "name": "Maybelline",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/d/8d9e9d86902395722434_1.jpg",
+        "price": 963,
+        "MRP": 899,
+        "id": "156"
+      }, {
+        "type": "foundation",
+        "name": "L'Oreal Paris",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/9/290b54d3592496005142_1.jpg",
+        "price": 963,
+        "MRP": 899,
+        "id": "157"
+      }, {
+        "type": "foundation",
+        "name": "Maybelline",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/8/38762da8904245707347_rev1.jpg",
+        "price": 963,
+        "MRP": 899,
+        "id": "158"
+      }, {
+        "type": "foundation",
+        "name": "Maybelline",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/0/a/0a0da0d887167507135_1.jpg",
+        "price": 963,
+        "MRP": 899,
+        "id": "159"
+      }, {
+        "type": "foundation",
+        "name": "L'Oreal Paris",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/3/536b7076902395718338_1.jpg",
+        "price": 963,
+        "MRP": 899,
+        "id": "160"
+      }, {
+        "type": "foundation",
+        "name": "L'Oreal Paris",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/8/f8361d424452_H-8901030742446.jpg",
+        "price": 963,
+        "MRP": 899,
+        "id": "161"
+      }, {
+        "type": "foundation",
+        "name": "Maybelline",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/5/b5aee3b773602103485_0.jpg",
+        "price": 963,
+        "MRP": 899,
+        "id": "162"
+      },
+      {
+        "type": "facewash",
+        "name": "Wow",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/b/bb0edc4MINIM00000041_1.jpeg",
+        "price": 263,
+        "MRP": 299,
+        "id": "163"
+      },
+      {
+        "type": "facewash",
+        "name": "Himalya",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/c/dcd721e737534800041_1.jpg",
+        "price": 263,
+        "MRP": 299,
+        "id": "164"
+      }, {
+        "type": "facewash",
+        "name": "Garnier",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/0/c0ad176N_3401395376706_1.jpg",
+        "price": 263,
+        "MRP": 299,
+        "id": "165"
+      }, {
+        "type": "facewash",
+        "name": "Himalya",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/4/4/44edfa5BIOTI00000085_1.jpg",
+        "price": 263,
+        "MRP": 299,
+        "id": "166"
+      }, {
+        "type": "facewash",
+        "name": "Clean & Clear",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/a/eaea13d8901138844172_1.jpg",
+        "price": 263,
+        "MRP": 299,
+        "id": "167"
+      }, {
+        "type": "facewash",
+        "name": "Wow",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/6/a6bf37c8906087770671aw__1_.jpg",
+        "price": 263,
+        "MRP": 299,
+        "id": "168"
+      }, {
+        "type": "facewash",
+        "name": "Garnier",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/1/e17e31e8901207040801_1.JPG",
+        "price": 263,
+        "MRP": 299,
+        "id": "169"
+      }, {
+        "type": "facewash",
+        "name": "Garnier",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/e/ae915c18906147700242-1.jpg",
+        "price": 263,
+        "MRP": 299,
+        "id": "170"
+      }, {
+        "type": "facewash",
+        "name": "Clean & Clear",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/4/6/46a31f227155_H-8901030861499-01.jpg",
+        "price": 263,
+        "MRP": 299,
+        "id": "171"
+      }, {
+        "type": "facewash",
+        "name": "Himalya",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/9/8904245714079_1.jpg",
+        "price": 263,
+        "MRP": 299,
+        "id": "172"
+      }, {
+        "type": "facewash",
+        "name": "Wow",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/1/f1a5144NYPLUMCOMB029_1.jpg",
+        "price": 263,
+        "MRP": 299,
+        "id": "173"
+      }, {
+        "type": "facewash",
+        "name": "Clean & Clear",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/8/982b139NYKBNDCTP0009_1.jpg",
+        "price": 263,
+        "MRP": 299,
+        "id": "174"
+      }, {
+        "type": "facewash",
+        "name": "Garnier",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/e/bea6bd1PLUMX00000393_1.jpg",
+        "price": 263,
+        "MRP": 299,
+        "id": "175"
+      }, {
+        "type": "facewash",
+        "name": "Clean & Clear",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/3/33def968906009456119_1.jpg",
+        "price": 263,
+        "MRP": 299,
+        "id": "176"
+      }, {
+        "type": "facewash",
+        "name": "Clean & Clear",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/0/90f17938904417300512_1.jpg",
+        "price": 263,
+        "MRP": 299,
+        "id": "177"
+      }, {
+        "type": "facewash",
+        "name": "Himalya",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/9/e949d6b8806182550997.jpg",
+        "price": 263,
+        "MRP": 299,
+        "id": "178"
+      }, {
+        "type": "facewash",
+        "name": "Clean & Clear",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/8/b8b5af76928820029589_1.jpg",
+        "price": 263,
+        "MRP": 299,
+        "id": "179"
+      }, {
+        "type": "facewash",
+        "name": "Clean & Clear",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/3/a3c4bd9NYCETA0000008_1.jpg",
+        "price": 263,
+        "MRP": 299,
+        "id": "180"
+      }, {
+        "type": "facewash",
+        "name": "Wow",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/9/29c188d8906009455839_1.jpg",
+        "price": 263,
+        "MRP": 299,
+        "id": "181"
+      }, {
+        "type": "facewash",
+        "name": "Himalya",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/6/2/62ec68927278_H1_8901030773563.jpg",
+        "price": 263,
+        "MRP": 299,
+        "id": "182"
+      }, {
+        "type": "facewash",
+        "name": "Garnier",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/4/b4cb6a68906047051291_1.jpg",
+        "price": 263,
+        "MRP": 299,
+        "id": "183"
+      }, {
+        "type": "facewash",
+        "name": "Himalya",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/3/f3ca4ee8904153388782_1.jpg",
+        "price": 263,
+        "MRP": 299,
+        "id": "184"
+      }, {
+        "type": "facewash",
+        "name": "Clean & Clear",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/b/abaf45c8901548146873_1.jpg",
+        "price": 263,
+        "MRP": 299,
+        "id": "185"
+      }, {
+        "type": "facewash",
+        "name": "Wow",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/0/90debc8AQUAA00000014_1.jpg",
+        "price": 263,
+        "MRP": 299,
+        "id": "186"
+      }, {
+        "type": "facewash",
+        "name": "Garnier",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/9/8904245714062_1.jpg",
+        "price": 263,
+        "MRP": 299,
+        "id": "187"
+      }, {
+        "type": "facewash",
+        "name": "Wow",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/d/9d7aa7e8906063411000.jpg",
+        "price": 263,
+        "MRP": 299,
+        "id": "188"
+      },
+      {
+      
+        "type": "lipstick",
+        "name": "Nykaa",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/e/ee635cdMAYBE00000252_1.jpg",
+        "price": 898,
+        "MRP": 898,
+       "id": "189"
+      
+    },
+
+    {
+      
+      "type": "lipstick",
+      "name": "Chambor",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/8/388be6524450_h-8901030739842.jpg",
+      "price": 898,
+      "MRP": 898,
+      "id": "190"
+    
+  },
+  {
+      
+    "type": "lipstick",
+    "name": "Maybelline",
+    "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/4/b/4be13ef8904245711023_1.jpg",
+    "price": 898,
+    "MRP": 898,
+    "id": "191"
+  
+},{
+      
+  "type": "lipstick",
+  "name": "Sugar Cosmetics",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/a/8ac066e8903380001914_7.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "192"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Nykaa",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/9/8904330901438_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "193"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Lakme",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/0/a/0a8cae9SWIAC00000298_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "194"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Nykaa",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/a/3a42a1e800897148294_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "195"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Chambor",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/3/93697d78908015561009_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "196"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Sugar Cosmetics",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/d/9dcf5cd41554429893_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "197"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Chambor",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/f/5fb94768904245707101_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "198"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Myeong",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/7/57214a3DOTKE00000179-1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "199"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Nykaa",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/4/d44d6d68904245711856_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "200"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Lakme",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/6/a/6a5bf3924937_H-8901030813092.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "201"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Sugar Cosmetics",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/d/bd180d124704_s1-8901030776533.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "202"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Myeong",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/0/0/00110af8904245706104_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "203"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Chambor",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/3/c300f398901030713941_0.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "204"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Nykaa",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/6/a/6ad4b888904325026702_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "205"
+
+},{
+      
+  "type": "lipstick",
+  "name": "BNF",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/9/8904245700881_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "206"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Chambor",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/4/f/4fcdc6dNYSWISSB00186_3.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "207"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Sugar Cosmetics",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/4/540a2d18903380003536_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "208"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Chambor",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/5/d5ae3ef8904245710958_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "209"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Maybelline",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/e/5e15297JUSTH00000011_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "210"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Nykaa",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/9/e9a141b8906121640588_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "211"
+
+},{
+      
+  "type": "lipstick",
+  "name": "NARS",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/7/c7d8a07nyswissb00246.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "212"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Foundation",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/4/54e49ecLAKME00000197_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "213"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Dior",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/6/a6a1a2a29026_h-8901030832710.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "214"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Chambor",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/4/54e49ecLAKME00000197_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "215"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Sugar Cosmetics",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/1/1/113b4fc8904386100816_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "216"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Nykaa",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/8/5820ef6JUSTH00000180_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "217"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Lakme",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/f/3fc42a2IBAHA00000088New1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "218"
+
+}
+
+  ],
+  
+
+
+  "kajal":[
+    
+      {
+        "type": "kajal",
+        "name": "Mamaearth Charcoal Black Long Stay Kajal Black Waterproof",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/a/ea5058a8906087776758__1_.jpg",
+        "price": 263,
+        "MRP": 299,
+        "id": "6"
+      },
+      {
+        "type": "kajal",
+        "name": "IBA Must Have Complete Makeup Box (Fair)",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/f/3fc4da8IBAHA00000088_1.jpg",
+        "price": 358,
+        "MRP": 551,
+        "id": "7"
+      },
+      {
+        "type": "kajal",
+        "name": "Blue Heaven Herbal Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/9/c941190NYBH000000713_1.jpg",
+        "price": 60,
+        "MRP": 70,
+        "id": "8"
+      },
+      {
+        "type": "kajal",
+        "name": "Iba All Day Kohl Kajal (Intense Black)",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/0/c/0c9b74d8906074711663_main.jpg",
+        "price": 199,
+        "MRP": 249,
+        "id": "9"
+      },
+      {
+        "type": "kajal",
+        "name": "Lotus Make-Up Divine Dew Herbal Sindoor Combo",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/n/y/nybndlhr00011.jpg",
+        "price": 231,
+        "MRP": 330,
+        "id": "10"
+      },
+      {
+        "type": "wedding kit",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/e/8e623c98904409738828_1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "11"
+      },
+      
+      {
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/7/c/7c1a45d8903380022261_1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "12"
+      },
+      {
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/7/2/723671c8901526301614_1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "13"
+      },
+      {
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/c/cc4a238BLUEH00000391_1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "14"
+      },
+      {
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/d/9d870c58904245701611_0.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "15"
+      },
+      {
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/7/f/7f58e57KAYBE00000048_1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "16"
+      },
+      {
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/4/24184_h-8901030693120.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "17"
+      },
+      {
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/e/9e606d2insig00000040_1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "18"
+      },
+      {
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/c/dce3e57KAYBE00000049_1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "19"
+      },
+      {
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/7/8/78b2401FACES00000441_1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "21"
+      },
+      {
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/p/k/pk3_2.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "20"
+      },
+      {
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/a/aa5f2a2IBAHA00000007New1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "22"
+      },
+      {
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/4/9/494e59c8901526105779_2.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "23"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/2/d2deec223850_H-8901030606274.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "24"
+      },
+      {
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/a/5a78270CHAMB00000091_1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "25"
+      },
+      {
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/f/2fa3b7bPRAUS00000062_1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "26"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/1/4/14be017SUGAR00000054_1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "27"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/6/f6fecc18903380157956_2.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "28"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/e/ae61c8f8903380159448_1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "29"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/3/23997_h-8901030644535.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "30"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/2/b2deca28904245700829_rev1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "31"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/0/b/0b4f0c58904245701505_0.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "32"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/8/38762da8904245707347_rev1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "33"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/4/b/4be13ef8904245711023_1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "34"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/9/8904245705114_1_1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "35"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/a/8af22daNYKAC00000165_1.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "36"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/6/a62c6cb23657_H-8901030824999.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "37"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/e/3e060daLAKME00000458_3.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "38"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/1/d1a669229370_S1_8901030911903.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "39"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/0/2/02e31d424030_H-8901030654886.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "40"
+      },{
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/8/f8361d424452_H-8901030742446.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "41"
+      },
+      {
+        "type": "kajal",
+        "name": "Mamaearth Lipstick + Kajal",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/0/a/0ac76cb24859_H-8901030794773.jpg",
+        "price": 818,
+        "MRP": 998,
+        "id": "42"
+      
+
+    }
+  ],
+
+
+
+  "lipstick":[
+    {
+      
+        "type": "lipstick",
+        "name": "Nykaa",
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/e/ee635cdMAYBE00000252_1.jpg",
+        "price": 898,
+        "MRP": 898,
+       "id": "43"
+      
+    },
+
+    {
+      
+      "type": "lipstick",
+      "name": "Chambor",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/8/388be6524450_h-8901030739842.jpg",
+      "price": 898,
+      "MRP": 898,
+      "id": "44"
+    
+  },
+  {
+      
+    "type": "lipstick",
+    "name": "Maybelline",
+    "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/4/b/4be13ef8904245711023_1.jpg",
+    "price": 898,
+    "MRP": 898,
+    "id": "45"
+  
+},{
+      
+  "type": "lipstick",
+  "name": "Sugar Cosmetics",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/a/8ac066e8903380001914_7.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "47"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Nykaa",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/9/8904330901438_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "48"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Lakme",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/0/a/0a8cae9SWIAC00000298_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "49"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Nykaa",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/a/3a42a1e800897148294_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "50"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Chambor",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/3/93697d78908015561009_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "51"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Sugar Cosmetics",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/d/9dcf5cd41554429893_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "52"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Chambor",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/f/5fb94768904245707101_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "53"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Myeong",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/7/57214a3DOTKE00000179-1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "54"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Nykaa",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/4/d44d6d68904245711856_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "55"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Lakme",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/6/a/6a5bf3924937_H-8901030813092.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "56"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Sugar Cosmetics",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/d/bd180d124704_s1-8901030776533.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "57"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Myeong",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/0/0/00110af8904245706104_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "58"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Chambor",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/3/c300f398901030713941_0.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "59"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Nykaa",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/6/a/6ad4b888904325026702_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "60"
+
+},{
+      
+  "type": "lipstick",
+  "name": "BNF",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/9/8904245700881_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "61"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Chambor",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/4/f/4fcdc6dNYSWISSB00186_3.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "62"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Sugar Cosmetics",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/4/540a2d18903380003536_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "63"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Chambor",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/5/d5ae3ef8904245710958_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "64"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Maybelline",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/e/5e15297JUSTH00000011_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "65"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Nykaa",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/9/e9a141b8906121640588_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "66"
+
+},{
+      
+  "type": "lipstick",
+  "name": "NARS",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/7/c7d8a07nyswissb00246.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "67"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Foundation",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/4/54e49ecLAKME00000197_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "68"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Dior",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/6/a6a1a2a29026_h-8901030832710.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "69"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Chambor",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/4/54e49ecLAKME00000197_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "70"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Sugar Cosmetics",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/1/1/113b4fc8904386100816_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "71"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Nykaa",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/8/5820ef6JUSTH00000180_1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "72"
+
+},{
+      
+  "type": "lipstick",
+  "name": "Lakme",
+  "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/f/3fc42a2IBAHA00000088New1.jpg",
+  "price": 898,
+  "MRP": 898,
+  "id": "73"
+
+}
+  ],
+
+
+  "facewash":[
+    {
+      "type": "facewash",
+      "name": "Wow",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/b/bb0edc4MINIM00000041_1.jpeg",
+      "price": 263,
+      "MRP": 299,
+      "id": "74"
+    },
+    {
+      "type": "facewash",
+      "name": "Himalya",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/c/dcd721e737534800041_1.jpg",
+      "price": 263,
+      "MRP": 299,
+      "id": "75"
+    }, {
+      "type": "facewash",
+      "name": "Garnier",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/0/c0ad176N_3401395376706_1.jpg",
+      "price": 263,
+      "MRP": 299,
+      "id": "76"
+    }, {
+      "type": "facewash",
+      "name": "Himalya",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/4/4/44edfa5BIOTI00000085_1.jpg",
+      "price": 263,
+      "MRP": 299,
+      "id": "77"
+    }, {
+      "type": "facewash",
+      "name": "Clean & Clear",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/a/eaea13d8901138844172_1.jpg",
+      "price": 263,
+      "MRP": 299,
+      "id": "78"
+    }, {
+      "type": "facewash",
+      "name": "Wow",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/6/a6bf37c8906087770671aw__1_.jpg",
+      "price": 263,
+      "MRP": 299,
+      "id": "79"
+    }, {
+      "type": "facewash",
+      "name": "Garnier",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/1/e17e31e8901207040801_1.JPG",
+      "price": 263,
+      "MRP": 299,
+      "id": "80"
+    }, {
+      "type": "facewash",
+      "name": "Garnier",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/e/ae915c18906147700242-1.jpg",
+      "price": 263,
+      "MRP": 299,
+      "id": "81"
+    }, {
+      "type": "facewash",
+      "name": "Clean & Clear",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/4/6/46a31f227155_H-8901030861499-01.jpg",
+      "price": 263,
+      "MRP": 299,
+      "id": "82"
+    }, {
+      "type": "facewash",
+      "name": "Himalya",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/9/8904245714079_1.jpg",
+      "price": 263,
+      "MRP": 299,
+      "id": "83"
+    }, {
+      "type": "facewash",
+      "name": "Wow",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/1/f1a5144NYPLUMCOMB029_1.jpg",
+      "price": 263,
+      "MRP": 299,
+      "id": "84"
+    }, {
+      "type": "facewash",
+      "name": "Clean & Clear",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/8/982b139NYKBNDCTP0009_1.jpg",
+      "price": 263,
+      "MRP": 299,
+      "id": "85"
+    }, {
+      "type": "facewash",
+      "name": "Garnier",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/e/bea6bd1PLUMX00000393_1.jpg",
+      "price": 263,
+      "MRP": 299,
+      "id": "86"
+    }, {
+      "type": "facewash",
+      "name": "Clean & Clear",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/3/33def968906009456119_1.jpg",
+      "price": 263,
+      "MRP": 299,
+      "id": "87"
+    }, {
+      "type": "facewash",
+      "name": "Clean & Clear",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/0/90f17938904417300512_1.jpg",
+      "price": 263,
+      "MRP": 299,
+      "id": "88"
+    }, {
+      "type": "facewash",
+      "name": "Himalya",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/9/e949d6b8806182550997.jpg",
+      "price": 263,
+      "MRP": 299,
+      "id": "89"
+    }, {
+      "type": "facewash",
+      "name": "Clean & Clear",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/8/b8b5af76928820029589_1.jpg",
+      "price": 263,
+      "MRP": 299,
+      "id": "90"
+    }, {
+      "type": "facewash",
+      "name": "Clean & Clear",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/3/a3c4bd9NYCETA0000008_1.jpg",
+      "price": 263,
+      "MRP": 299,
+      "id": "91"
+    }, {
+      "type": "facewash",
+      "name": "Wow",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/9/29c188d8906009455839_1.jpg",
+      "price": 263,
+      "MRP": 299,
+      "id": "92"
+    }, {
+      "type": "facewash",
+      "name": "Himalya",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/6/2/62ec68927278_H1_8901030773563.jpg",
+      "price": 263,
+      "MRP": 299,
+      "id": "93"
+    }, {
+      "type": "facewash",
+      "name": "Garnier",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/4/b4cb6a68906047051291_1.jpg",
+      "price": 263,
+      "MRP": 299,
+      "id": "94"
+    }, {
+      "type": "facewash",
+      "name": "Himalya",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/3/f3ca4ee8904153388782_1.jpg",
+      "price": 263,
+      "MRP": 299,
+      "id": "95"
+    }, {
+      "type": "facewash",
+      "name": "Clean & Clear",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/b/abaf45c8901548146873_1.jpg",
+      "price": 263,
+      "MRP": 299,
+      "id": "96"
+    }, {
+      "type": "facewash",
+      "name": "Wow",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/0/90debc8AQUAA00000014_1.jpg",
+      "price": 263,
+      "MRP": 299,
+      "id": "97"
+    }, {
+      "type": "facewash",
+      "name": "Garnier",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/9/8904245714062_1.jpg",
+      "price": 263,
+      "MRP": 299,
+      "id": "98"
+    }, {
+      "type": "facewash",
+      "name": "Wow",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/d/9d7aa7e8906063411000.jpg",
+      "price": 263,
+      "MRP": 299,
+      "id": "99"
+    }
+  ],
+
+
+  "foundation":[
+    {
+      "type": "foundation",
+      "name": "L'Oreal Paris",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/e/eeb32688906148971078_1.jpg",
+      "price": 963,
+      "MRP": 899,
+      "id": "100"
+    },
+    {
+      "type": "foundation",
+      "name": "L'Oreal Paris",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/b/abcdefgSMASH00000204_1.jpg",
+      "price": 963,
+      "MRP": 899,
+      "id": "101"
+    }, {
+      "type": "foundation",
+      "name": "Lakme",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/f/3fc42a2IBAHA00000088New1.jpg",
+      "price": 963,
+      "MRP": 899,
+      "id": "102"
+    }, {
+      "type": "foundation",
+      "name": "Lakme",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/b/eb773e7LAKME00000477_1.jpg",
+      "price": 963,
+      "MRP": 899,
+      "id": "103"
+    }, {
+      "type": "foundation",
+      "name": "L'Oreal Paris",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/e/9eb2af7MAYBE00000262_1.jpg",
+      "price": 963,
+      "MRP": 899,
+      "id": "104"
+    }, {
+      "type": "foundation",
+      "name": "Lakme",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/c/dcdc956607710019720_1.jpg",
+      "price": 963,
+      "MRP": 899,
+      "id": "105"
+    }, {
+      "type": "foundation",
+      "name": "Sugar Cosmetics",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/b/3b01c8f8903380002621_1.jpg",
+      "price": 963,
+      "MRP": 899,
+      "id": "106"
+    }, {
+      "type": "foundation",
+      "name": "Maybelline",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/a/2aef7073600522862383_1.jpg",
+      "price": 963,
+      "MRP": 899,
+      "id": "107"
+    }, {
+      "type": "foundation",
+      "name": "Lakme",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/9/5981dbb3592495947054_1.jpg",
+      "price": 963,
+      "MRP": 899,
+      "id": "108"
+    }, {
+      "type": "foundation",
+      "name": "L'Oreal Paris",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/7/5/757ecadMAMAE00000769_1.jpg",
+      "price": 963,
+      "MRP": 899,
+      "id": "109"
+    }, {
+      "type": "foundation",
+      "name": "Maybelline",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/4/e4992da8904245704087_1.jpg",
+      "price": 963,
+      "MRP": 899,
+      "id": "110"
+    }, {
+      "type": "foundation",
+      "name": "L'Oreal Paris",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/1/0/1037a1e3600523614516_1.jpg",
+      "price": 963,
+      "MRP": 899,
+      "id": "111"
+    }, {
+      "type": "foundation",
+      "name": "Maybelline",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/0/6/066c2d28901030678264_1.jpg",
+      "price": 963,
+      "MRP": 899,
+      "id": "112"
+    }, {
+      "type": "foundation",
+      "name": "L'Oreal Paris",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/c/ec6ba1eLOREA00000403_1.jpg",
+      "price": 963,
+      "MRP": 899,
+      "id": "113"
+    }, {
+      "type": "foundation",
+      "name": "Lakme",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/a/8ad53b78906090492904_1.jpg",
+      "price": 963,
+      "MRP": 899,
+      "id": "114"
+    }, {
+      "type": "foundation",
+      "name": "L'Oreal Paris",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/0/a/0a4254dDAIAA00000266_10.jpg",
+      "price": 963,
+      "MRP": 899,
+      "id": "115"
+    }, {
+      "type": "foundation",
+      "name": "Maybelline",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/6/7/67e7132NYKAC00000217_1.jpg",
+      "price": 963,
+      "MRP": 899,
+      "id": "116"
+    }, {
+      "type": "foundation",
+      "name": "Maybelline",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/1/81671cf8904330902510_1.jpg",
+      "price": 963,
+      "MRP": 899,
+      "id": "117"
+    }, {
+      "type": "foundation",
+      "name": "Maybelline",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/7/875b9d86902395685715_1.jpg",
+      "price": 963,
+      "MRP": 899,
+      "id": "118"
+    }, {
+      "type": "foundation",
+      "name": "Lakme",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/1/c1801d422769_H-8901030366086.jpg",
+      "price": 963,
+      "MRP": 899,
+      "id": "119"
+    }, {
+      "type": "foundation",
+      "name": "Lakme",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/d/5d613cdhudab00000154_new_1.jpg",
+      "price": 963,
+      "MRP": 899,
+      "id": "120"
+    }, {
+      "type": "foundation",
+      "name": "L'Oreal Paris",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/6/d605af7MAYBE00000462_1.jpg",
+      "price": 963,
+      "MRP": 899,
+      "id": "121"
+    }, {
+      "type": "foundation",
+      "name": "Maybelline",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/8/88319ccMACXX00000307_1.jpg",
+      "price": 963,
+      "MRP": 899,
+      "id": "122"
+    }, {
+      "type": "foundation",
+      "name": "Lakme",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/4/2/427c894773602042951_0.jpg",
+      "price": 963,
+      "MRP": 899,
+      "id": "123"
+    }, {
+      "type": "foundation",
+      "name": "Maybelline",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/d/8d9e9d86902395722434_1.jpg",
+      "price": 963,
+      "MRP": 899,
+      "id": "124"
+    }, {
+      "type": "foundation",
+      "name": "L'Oreal Paris",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/9/290b54d3592496005142_1.jpg",
+      "price": 963,
+      "MRP": 899,
+      "id": "125"
+    }, {
+      "type": "foundation",
+      "name": "Maybelline",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/8/38762da8904245707347_rev1.jpg",
+      "price": 963,
+      "MRP": 899,
+      "id": "126"
+    }, {
+      "type": "foundation",
+      "name": "Maybelline",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/0/a/0a0da0d887167507135_1.jpg",
+      "price": 963,
+      "MRP": 899,
+      "id": "127"
+    }, {
+      "type": "foundation",
+      "name": "L'Oreal Paris",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/3/536b7076902395718338_1.jpg",
+      "price": 963,
+      "MRP": 899,
+      "id": "128"
+    }, {
+      "type": "foundation",
+      "name": "L'Oreal Paris",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/8/f8361d424452_H-8901030742446.jpg",
+      "price": 963,
+      "MRP": 899,
+      "id": "129"
+    }, {
+      "type": "foundation",
+      "name": "Maybelline",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/5/b5aee3b773602103485_0.jpg",
+      "price": 963,
+      "MRP": 899,
+      "id": "130"
+    }
+  ]
+
+
+
+
+
+  
+}
