@@ -15,7 +15,7 @@ const Login = () => {
   return (
     <Box>
     <Heading size={"lg"} m="10px">
-      Sign Up
+      Login
     </Heading>
     
       <Flex
