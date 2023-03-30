@@ -1,4 +1,6 @@
 import {
+  Avatar,
+  AvatarBadge,
   Box,
   Button,
   Flex,
@@ -16,18 +18,29 @@ import {
   SimpleGrid,
   Text,
   useDisclosure,
+  Popover,
+  PopoverArrow,
+  PopoverBody,
+  PopoverCloseButton,
+  PopoverContent,
+  PopoverHeader,
+  PopoverTrigger,
+  useToast,
 } from "@chakra-ui/react";
+
 import React, { useEffect, useState } from "react";
 import { AiFillGift, AiFillShop } from "react-icons/ai";
 import { FiSearch } from "react-icons/fi";
 import { BsBag, BsFillPersonFill } from "react-icons/bs";
 import "../CSS/Navbar.css";
 import { RxHamburgerMenu } from "react-icons/rx";
+import { Link, useNavigate } from "react-router-dom";
+import { useSelector } from "react-redux";
+import { forToast } from "../Redux/authReducer/action";
 
 const Navbar = () => {
   const [Width, setWidth] = useState(window.innerWidth);
   const { isOpen, onOpen, onClose } = useDisclosure();
-
   const MenuOverlay = () => (
     <ModalOverlay
       bg="blackAlpha.300"
@@ -38,7 +51,16 @@ const Navbar = () => {
   const DetectWindowSize = () => {
     setWidth(window.innerWidth);
   };
+  const navigate = useNavigate();
+  const toast = useToast();
+  //for auth---------->
+  const { isAuth } = useSelector((store) => {
+    return store.authReducer;
+  });
 
+  //================>
+
+  // console.log(isAuth);
   useEffect(() => {
     window.addEventListener("resize", DetectWindowSize);
 
@@ -46,6 +68,17 @@ const Navbar = () => {
       window.removeEventListener("resize", DetectWindowSize);
     };
   }, [Width]);
+
+  const handleLogout = () => {
+    localStorage.removeItem("activeid");
+    navigate("/");
+    forToast(toast, "Logout Successfull", "success");
+    setTimeout(()=>{
+
+      window.location.reload();
+    },1000)
+    
+  };
 
   return (
     <>
@@ -112,8 +145,45 @@ const Navbar = () => {
             </div>
           </Flex>
           <Flex justifyContent={"space-around"} alignItems="center" gap="20px">
-            <BsBag size="30px" cursor={"pointer"} /> |{" "}
-            <BsFillPersonFill size="30px" cursor={"pointer"} />
+            <Link to={"/cart"}>
+              {" "}
+              <BsBag size="30px" cursor={"pointer"} />
+            </Link>
+
+            {/* <Link to={'/userdashboard'}><Avatar size='sm'>
+              <AvatarBadge  boxSize='1.25em' bg='green.500' />
+            </Avatar></Link> */}
+            {isAuth ? (
+              <Popover>
+                <PopoverTrigger>
+                  <Avatar size="sm" cursor={"pointer"}>
+                    <AvatarBadge boxSize="1.25em" bg="green.500" />
+                  </Avatar>
+                </PopoverTrigger>
+                <PopoverContent>
+                  <PopoverArrow />
+                  <PopoverCloseButton />
+                  <PopoverHeader fontWeight={'700'}>Dashboard</PopoverHeader>
+                  <PopoverBody textAlign={'left'} fontWeight={'500'} cursor='pointer' >
+                    <Text _hover={{textDecoration:'underline'}} mb='5px'>Update your profile</Text>
+                    <Text _hover={{textDecoration:'underline'}} mb='5px'>Your order</Text>
+                    <Text _hover={{textDecoration:'underline'}} mb='10px'>Your cart item</Text>
+                    <Button
+                      _hover={{ bg: "red", color: "white" }}
+                      bg="pink"
+                      onClick={handleLogout}
+                    >
+                      Logout
+                    </Button>
+                  </PopoverBody>
+                </PopoverContent>
+              </Popover>
+            ) : (
+              <Link to={"/login"}>
+                {" "}
+                <BsFillPersonFill size="30px" cursor={"pointer"} />
+              </Link>
+            )}
           </Flex>
         </Flex>
         <Box>

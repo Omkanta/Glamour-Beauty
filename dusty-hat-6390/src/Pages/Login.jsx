@@ -1,5 +1,5 @@
 
-import React from 'react'
+import React, { useState } from 'react'
 import logingif from '../allImages/login_gif.gif'
 import {
     Box,
@@ -10,12 +10,44 @@ import {
     Input,
     Text
   } from "@chakra-ui/react";
-import { Link } from 'react-router-dom';
+import { Link, Navigate } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { forLogin, forToast } from '../Redux/authReducer/action';
+import { useToast } from '@chakra-ui/react'
+import { useNavigate } from 'react-router-dom';
 const Login = () => {
+const int={
+  email:"",
+  password:""
+}
+const [loginData,setLoginData]=useState(int)
+const dispatch=useDispatch();
+const toast=useToast();
+const navigate=useNavigate()
+const handlechange=(e)=>{
+  const {name,value}=e.target;
+  setLoginData({...loginData,[name]:value});
+}
+const handlesubmit=(e)=>{
+  e.preventDefault();
+  // console.log(loginData);
+dispatch(forLogin(loginData)).then((res)=>{
+  if(res){
+    forToast(toast,"Login successfull😊","success")
+    setLoginData(int)
+    navigate('/')
+
+  }else{
+    forToast(toast,"wrong cradential❌","error")
+
+  }
+})
+}
+
   return (
     <Box>
     <Heading size={"lg"} m="10px">
-      Sign Up
+      Login
     </Heading>
     
       <Flex
@@ -34,11 +66,11 @@ const Login = () => {
         </Box>
         <Box bg={"white"} p="25px" gap={"10px"} borderRadius="15px">
             <Heading size={'lg'} p='15px 0'>Login</Heading>
-        <form>
+        <form onSubmit={handlesubmit}>
           <FormLabel>Email</FormLabel>
-          <Input placeholder="First name" />
+          <Input placeholder="Enter email" name='email' value={loginData.email} onChange={handlechange} />
           <FormLabel>Password</FormLabel>
-          <Input placeholder="Enter password" type={"password"} />
+          <Input placeholder="Enter password" type={"password"} name='password' value={loginData.password} onChange={handlechange}  />
           <Input
             type={"submit"}
             bg='pink'
