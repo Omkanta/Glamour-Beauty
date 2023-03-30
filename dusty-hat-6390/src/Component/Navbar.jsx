@@ -1,4 +1,6 @@
 import {
+  Avatar,
+  AvatarBadge,
   Box,
   Button,
   Flex,
@@ -23,11 +25,12 @@ import { FiSearch } from "react-icons/fi";
 import { BsBag, BsFillPersonFill } from "react-icons/bs";
 import "../CSS/Navbar.css";
 import { RxHamburgerMenu } from "react-icons/rx";
+import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 const Navbar = () => {
   const [Width, setWidth] = useState(window.innerWidth);
   const { isOpen, onOpen, onClose } = useDisclosure();
-
   const MenuOverlay = () => (
     <ModalOverlay
       bg="blackAlpha.300"
@@ -38,7 +41,16 @@ const Navbar = () => {
   const DetectWindowSize = () => {
     setWidth(window.innerWidth);
   };
+//for auth---------->
+const {isAuth}=useSelector((store)=>{
+  return store.authReducer
+})
 
+
+//================>
+
+
+// console.log(isAuth);
   useEffect(() => {
     window.addEventListener("resize", DetectWindowSize);
 
@@ -113,7 +125,12 @@ const Navbar = () => {
           </Flex>
           <Flex justifyContent={"space-around"} alignItems="center" gap="20px">
             <BsBag size="30px" cursor={"pointer"} /> |{" "}
-            <BsFillPersonFill size="30px" cursor={"pointer"} />
+            {
+              isAuth?  <Avatar size='sm'>
+              <AvatarBadge  boxSize='1.25em' bg='green.500' />
+            </Avatar>: <Link to={'/login'}> <BsFillPersonFill size="30px" cursor={"pointer"} /></Link>
+            }
+          
           </Flex>
         </Flex>
         <Box>
