@@ -4,6 +4,7 @@ import { useLocation, useSearchParams } from 'react-router-dom'
 import { getProduct } from '../Redux/action'
 import { Productcard } from './Productcard'
 
+
 export const ProductList = () => {
 
 
@@ -26,12 +27,16 @@ export const ProductList = () => {
 
 
   return (
-    <div style={{display:'grid',gridTemplateColumns:"repeat(4,1fr)",gap:"20px"}}>
+      <div style={{display: "flex",justifyContent: "flex-end",
+        flexDirection: "column"}}>
+      <div  style={{width:"80%",display:'grid',gridTemplateColumns:"repeat(3,1fr)",gap:"10px"}}>
         {
             Products.length>0 && Products.map((el)=>{
                 return <Productcard key={el.id} {...el} />
             })
         }
     </div>
+
+        </div>
   )
 }
