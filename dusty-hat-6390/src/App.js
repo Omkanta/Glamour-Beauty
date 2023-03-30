@@ -7,9 +7,9 @@ import { ProductList } from "./Component/ProductList";
 function App() {
   return (
     <div className="App">
-      {/* <Navbar /> */}
-      {/* <MainRoutes /> */}
-      {/* <Footer /> */}
+      <Navbar />
+      <MainRoutes />
+      <Footer />
       <ProductList/>
     </div>
   );
