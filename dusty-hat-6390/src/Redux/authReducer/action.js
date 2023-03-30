@@ -17,6 +17,7 @@ export const forSignup = (userData) => (dispatch) => {
     .post(`http://localhost:3000/users`, { ...userData, cartitem: [] })
     .then((res) => {
       dispatch(authsuccess());
+      localStorage.setItem("activeid",JSON.stringify(res.data.id))
       return true;
     })
     .catch((er) => {
@@ -31,6 +32,7 @@ export const forLogin = (userData) => (dispatch) => {
     for (const i of res.data) {
       if (i.email == userData.email && i.password == userData.password) {
         dispatch(authsuccess());
+        localStorage.setItem("activeid",JSON.stringify(i.id))
         return true;
       }
     }

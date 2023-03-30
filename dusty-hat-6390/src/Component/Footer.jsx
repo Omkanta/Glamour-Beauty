@@ -4,13 +4,14 @@ import "../CSS/Footer.css";
 
 const Footer = () => {
   return (
-    <div style={{ backgroundColor: "#f8f9fa" }}>
+    <div style={{ backgroundColor: "#f8f9fa" }} >
       <SimpleGrid
         columns={[2, 3, 4, 11]}
         textAlign="left"
         p="30px"
         gap="20px"
         fontSize="15px"
+        mt={'100px'}
       >
         <Box>
           <Heading size={"sm"} color="#ff758f">
