@@ -10,10 +10,11 @@ import {
     Input,
     Text
   } from "@chakra-ui/react";
-import { Link } from 'react-router-dom';
+import { Link, Navigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { forLogin, forToast } from '../Redux/authReducer/action';
 import { useToast } from '@chakra-ui/react'
+import { useNavigate } from 'react-router-dom';
 const Login = () => {
 const int={
   email:"",
@@ -21,7 +22,8 @@ const int={
 }
 const [loginData,setLoginData]=useState(int)
 const dispatch=useDispatch();
-const toast=useToast()
+const toast=useToast();
+const navigate=useNavigate()
 const handlechange=(e)=>{
   const {name,value}=e.target;
   setLoginData({...loginData,[name]:value});
@@ -32,13 +34,14 @@ const handlesubmit=(e)=>{
 dispatch(forLogin(loginData)).then((res)=>{
   if(res){
     forToast(toast,"Login successfull😊","success")
+    setLoginData(int)
+    navigate('/')
 
   }else{
     forToast(toast,"wrong cradential❌","error")
 
   }
 })
-  setLoginData(int)
 }
 
   return (
