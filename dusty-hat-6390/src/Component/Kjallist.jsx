@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { useLocation, useSearchParams } from 'react-router-dom'
-import { getProduct } from '../Redux/action'
+import { getProduct, getkajal } from '../Redux/action'
 import { Productcard } from './Productcard'
 
-export const ProductList = () => {
+export const Kjallist = () => {
 
 
     const [search] = useSearchParams()
@@ -20,7 +20,7 @@ export const ProductList = () => {
     }
 
     useEffect(()=>{
-        dispatch(getProduct(obj))
+        dispatch(getkajal(obj))
     },[location.search])
 
 
@@ -32,7 +32,7 @@ export const ProductList = () => {
                 return <Productcard key={el.id} {...el} />
             })
         }
-
+        
     </div>
   )
 }

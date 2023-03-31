@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { useLocation, useSearchParams } from 'react-router-dom'
-import { getProduct } from '../Redux/action'
+import { getLipbam, getProduct } from '../Redux/action'
 import { Productcard } from './Productcard'
 
-export const ProductList = () => {
+export const Lipbam = () => {
 
 
     const [search] = useSearchParams()
@@ -20,7 +20,7 @@ export const ProductList = () => {
     }
 
     useEffect(()=>{
-        dispatch(getProduct(obj))
+        dispatch(getLipbam(obj))
     },[location.search])
 
 

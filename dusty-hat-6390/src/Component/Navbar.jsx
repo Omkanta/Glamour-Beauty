@@ -69,6 +69,10 @@ const Navbar = () => {
     };
   }, [Width]);
 
+  const handleproduct = ()=>{
+    navigate("/products")
+  }
+
   const handleLogout = () => {
     localStorage.removeItem("activeid");
     navigate("/");
@@ -244,7 +248,7 @@ const Navbar = () => {
                       </Box>
                       <Box>
                         <Menu>
-                          <MenuButton className="navbar-items">
+                          <MenuButton onClick={handleproduct} className="navbar-items">
                             HAIR CARE
                           </MenuButton>
                           <MenuList>
@@ -278,7 +282,7 @@ const Navbar = () => {
                       <Box>
                         <Menu>
                           <MenuButton className="navbar-items">
-                            BATH & BODY
+                           <a href="/products"> BATH & BODY</a>
                           </MenuButton>
                           <MenuList>
                             <MenuItem

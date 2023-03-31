@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <MainRoutes />
       <Footer />
-      <ProductList/>
+      {/* <ProductList/> */}
     </div>
   );
 }

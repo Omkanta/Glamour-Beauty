@@ -10,6 +10,7 @@ import {
 } from "@chakra-ui/react";
 import { AiFillStar } from "react-icons/ai";
 import "../CSS/HoverGrow.css";
+import { Link } from "react-router-dom";
 
 const AllImages1 = [
   "https://files.myglamm.com/site-images/original/ult1920x527_1.jpg",
@@ -355,7 +356,8 @@ const HomePage = () => {
               src="https://files.myglamm.com/site-images/original/Superfoods-Model-120-X-120-px_2.jpg"
             />
             <Text fontSize={"md"} fontWeight="bold" m="5px">
-              Hairs
+              <Link to={"/products"} >Hairs</Link>
+              
             </Text>
           </Box>
           <Box>

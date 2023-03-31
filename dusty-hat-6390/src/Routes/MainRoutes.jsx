@@ -10,6 +10,10 @@ import PrivateRoute from "../Component/PrivateRoute";
 import UserProfile from "../Pages/UserProfile";
 import Pro from "../Pages/Pro";
 import { ProductList } from "../Component/ProductList";
+import { Kjallist } from "../Component/Kjallist";
+import { Lipbam } from "../Component/Lipbam";
+import { Foundation } from "../Component/Foundation";
+import { Facewash } from "../Component/Facewash";
 
 const MainRoutes = () => {
   return (
@@ -27,6 +31,10 @@ const MainRoutes = () => {
       <Route path="/admin_page" element={<Admin_Page />} />
       <Route path="/products/:id" element={<Pro/>}/>
       <Route path="/products" element={<ProductList/>}/>
+      <Route path="/kajal" element={<Kjallist/>}/>
+      <Route path="/lipstick" element={<Lipbam/>}/>
+      <Route path="/facewash" element={<Facewash/>}/>
+      <Route path="/foundation" element={<Foundation/>}/>
     </Routes>
   );
 };
