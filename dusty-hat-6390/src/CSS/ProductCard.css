@@ -1,0 +1,6 @@
+.Icons:hover{
+display: inline-block;
+transform: 'translateY(2px)';
+cursor: pointer;
+ box-shadow: 'lg',
+}
