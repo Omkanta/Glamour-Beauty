@@ -41,6 +41,9 @@ import { forToast } from "../Redux/authReducer/action";
 const Navbar = () => {
   const [Width, setWidth] = useState(window.innerWidth);
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const navigate = useNavigate();
+  const toast = useToast();
+
   const MenuOverlay = () => (
     <ModalOverlay
       bg="blackAlpha.300"
@@ -51,8 +54,7 @@ const Navbar = () => {
   const DetectWindowSize = () => {
     setWidth(window.innerWidth);
   };
-  const navigate = useNavigate();
-  const toast = useToast();
+
   //for auth---------->
   const { isAuth } = useSelector((store) => {
     return store.authReducer;
@@ -73,11 +75,9 @@ const Navbar = () => {
     localStorage.removeItem("activeid");
     navigate("/");
     forToast(toast, "Logout Successfull", "success");
-    setTimeout(()=>{
-
+    setTimeout(() => {
       window.location.reload();
-    },1000)
-    
+    }, 1000);
   };
 
   return (
@@ -149,7 +149,7 @@ const Navbar = () => {
               {" "}
               <BsBag size="30px" cursor={"pointer"} />
             </Link>
-
+            |
             {/* <Link to={'/userdashboard'}><Avatar size='sm'>
               <AvatarBadge  boxSize='1.25em' bg='green.500' />
             </Avatar></Link> */}
@@ -163,11 +163,21 @@ const Navbar = () => {
                 <PopoverContent>
                   <PopoverArrow />
                   <PopoverCloseButton />
-                  <PopoverHeader fontWeight={'700'}>Dashboard</PopoverHeader>
-                  <PopoverBody textAlign={'left'} fontWeight={'500'} cursor='pointer' >
-                    <Text _hover={{textDecoration:'underline'}} mb='5px'>Update your profile</Text>
-                    <Text _hover={{textDecoration:'underline'}} mb='5px'>Your order</Text>
-                    <Text _hover={{textDecoration:'underline'}} mb='10px'>Your cart item</Text>
+                  <PopoverHeader fontWeight={"700"}>Dashboard</PopoverHeader>
+                  <PopoverBody
+                    textAlign={"left"}
+                    fontWeight={"500"}
+                    cursor="pointer"
+                  >
+                    <Text _hover={{ textDecoration: "underline" }} mb="5px">
+                      Update your profile
+                    </Text>
+                    <Text _hover={{ textDecoration: "underline" }} mb="5px">
+                      Your order
+                    </Text>
+                    <Text _hover={{ textDecoration: "underline" }} mb="10px">
+                      Your cart item
+                    </Text>
                     <Button
                       _hover={{ bg: "red", color: "white" }}
                       bg="pink"
@@ -207,7 +217,12 @@ const Navbar = () => {
                   <ModalBody>
                     <SimpleGrid columns={[1, 2]} gap="10px">
                       <Box>
-                        <Text className="navbar-items">HOME</Text>
+                        <Text
+                          className="navbar-items"
+                          onClick={() => navigate("/")}
+                        >
+                          HOME
+                        </Text>
                       </Box>
                       <Box>
                         <Menu>
@@ -427,7 +442,9 @@ const Navbar = () => {
               mt="20px"
             >
               <Box>
-                <Text className="navbar-items">HOME</Text>
+                <Text className="navbar-items" onClick={() => navigate("/")}>
+                  HOME
+                </Text>
               </Box>
               <Box>
                 <Menu>
