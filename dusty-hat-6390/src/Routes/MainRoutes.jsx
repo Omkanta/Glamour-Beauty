@@ -17,16 +17,19 @@ const MainRoutes = () => {
       <Route path="/" element={<HomePage />} />
       <Route path="/signup" element={<SignUp />}></Route>
       <Route path="/login" element={<Login />}></Route>
-      <Route path="/cart" element={
-        <PrivateRoute>
-      <Cart />
-      </PrivateRoute>
-      }></Route>
-      <Route path="userdarshboard" element={<UserProfile/>}></Route>
+      <Route
+        path="/cart"
+        element={
+          <PrivateRoute>
+            <Cart />
+          </PrivateRoute>
+        }
+      ></Route>
+      <Route path="userdarshboard" element={<UserProfile />} />
       <Route path="/admin_login" element={<Admin_Login />} />
       <Route path="/admin_page" element={<Admin_Page />} />
-      <Route path="/products/:id" element={<Pro/>}/>
-      <Route path="/products" element={<ProductList/>}/>
+      <Route path="/products/:id" element={<Pro />} />
+      <Route path="/products" element={<ProductList />} />
     </Routes>
   );
 };
