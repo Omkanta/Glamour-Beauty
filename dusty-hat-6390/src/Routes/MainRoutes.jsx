@@ -8,6 +8,8 @@ import SignUp from "../Pages/SignUp";
 import Cart from "../Pages/Cart";
 import PrivateRoute from "../Component/PrivateRoute";
 import UserProfile from "../Pages/UserProfile";
+import Pro from "../Pages/Pro";
+import { ProductList } from "../Component/ProductList";
 
 const MainRoutes = () => {
   return (
@@ -26,6 +28,8 @@ const MainRoutes = () => {
       <Route path="userdarshboard" element={<UserProfile />} />
       <Route path="/admin_login" element={<Admin_Login />} />
       <Route path="/admin_page" element={<Admin_Page />} />
+      <Route path="/products/:id" element={<Pro/>}/>
+      <Route path="/products" element={<ProductList/>}/>
     </Routes>
   );
 };
