@@ -2019,19 +2019,139 @@
   ],
   "users": [
     {
-      "firstname": "Animesh",
-      "lastname": "Ghoroi",
-      "email": "a@gmail.com",
-      "password": "123456",
-      "cartitem": [],
-      "id": 2
-    },
-    {
       "firstname": "Nila",
       "lastname": "Ghoroi",
       "email": "n@gmail.com",
       "password": "123456",
       "cartitem": [],
+      "parchesitem": [
+        {
+          "type": "kajal",
+          "name": "Mamaearth Lipstick + Kajal",
+          "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/7/c/7c1a45d8903380022261_1.jpg",
+          "price": 818,
+          "MRP": 998,
+          "id": "12",
+          "quantity": 2
+        },
+        {
+          "type": "kajal",
+          "name": "Mamaearth Lipstick + Kajal",
+          "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/7/2/723671c8901526301614_1.jpg",
+          "price": 818,
+          "MRP": 998,
+          "id": "13",
+          "quantity": 3
+        },
+        {
+          "type": "kajal",
+          "name": "Mamaearth Lipstick + Kajal",
+          "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/a/aa5f2a2IBAHA00000007New1.jpg",
+          "price": 818,
+          "MRP": 998,
+          "id": "22",
+          "quantity": 1
+        },
+        {
+          "type": "kajal",
+          "name": "Mamaearth Lipstick + Kajal",
+          "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/7/f/7f58e57KAYBE00000048_1.jpg",
+          "price": 818,
+          "MRP": 998,
+          "id": "16",
+          "quantity": 1
+        },
+        {
+          "type": "facewash",
+          "name": "Clean & Clear",
+          "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/a/eaea13d8901138844172_1.jpg",
+          "price": 263,
+          "MRP": 299,
+          "id": "167",
+          "quantity": 5
+        },
+        {
+          "type": "kajal",
+          "name": "IBA Must Have Complete Makeup Box (Fair)",
+          "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/f/3fc4da8IBAHA00000088_1.jpg",
+          "price": 358,
+          "MRP": 551,
+          "id": "7",
+          "quantity": 1
+        },
+        {
+          "type": "foundation",
+          "name": "M.A.C Studio Fix Fluid SPF 15",
+          "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/3/a3ee29a773602103591_rv__1.jpg",
+          "price": 2950,
+          "MRP": 0,
+          "id": "2",
+          "quantity": 4
+        },
+        {
+          "type": "foundation",
+          "name": "Nykaa SkinShield Anti-Pollution Matte Foundation",
+          "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/f/ef153f68904245707408_rev1.jpg",
+          "price": 400,
+          "MRP": 700,
+          "id": "1",
+          "quantity": 1
+        },
+        {
+          "type": "kajal",
+          "name": "Mamaearth Lipstick + Kajal",
+          "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/7/c/7c1a45d8903380022261_1.jpg",
+          "price": 818,
+          "MRP": 998,
+          "id": "12",
+          "quantity": 1
+        },
+        {
+          "type": "foundation",
+          "name": "Lakme Absolute Skin Dew Serum Foundation",
+          "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/d/fdedcfcLAKME00000601_2.jpg",
+          "price": 875,
+          "MRP": 875,
+          "id": "3",
+          "quantity": 3
+        },
+        {
+          "type": "kajal",
+          "name": "Mamaearth Lipstick + Kajal",
+          "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/7/c/7c1a45d8903380022261_1.jpg",
+          "price": 818,
+          "MRP": 998,
+          "id": "12",
+          "quantity": 1
+        },
+        {
+          "type": "foundation",
+          "name": "Lakme Absolute Skin Dew Serum Foundation",
+          "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/d/fdedcfcLAKME00000601_2.jpg",
+          "price": 875,
+          "MRP": 875,
+          "id": "3",
+          "quantity": 4
+        },
+        {
+          "type": "kajal",
+          "name": "Blue Heaven Herbal Kajal",
+          "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/9/c941190NYBH000000713_1.jpg",
+          "price": 60,
+          "MRP": 70,
+          "id": "8",
+          "quantity": 3
+        },
+        {
+          "type": "kajal",
+          "name": "Mamaearth Lipstick + Kajal",
+          "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/c/dce3e57KAYBE00000049_1.jpg",
+          "price": 818,
+          "MRP": 998,
+          "id": "19",
+          "quantity": 2
+        }
+      ],
       "id": 3
     },
     {
@@ -2040,6 +2160,7 @@
       "email": "m@gmail.com",
       "password": "123456",
       "cartitem": [],
+      "parchesitem": [],
       "id": 4
     },
     {
@@ -2048,7 +2169,49 @@
       "email": "animeshghoroi2000@gmail.com",
       "password": "123456",
       "cartitem": [],
+      "parchesitem": [
+        {
+          "type": "foundation",
+          "name": "Lakme Absolute Skin Dew Serum Foundation",
+          "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/d/fdedcfcLAKME00000601_2.jpg",
+          "price": 875,
+          "MRP": 875,
+          "id": "3",
+          "quantity": 5
+        },
+        {
+          "type": "kajal",
+          "name": "Mamaearth Lipstick + Kajal",
+          "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/7/c/7c1a45d8903380022261_1.jpg",
+          "price": 818,
+          "MRP": 998,
+          "id": "12",
+          "quantity": 1
+        }
+      ],
       "id": 5
+    },
+   
+   
+   
+    {
+      "firstname": "dipti",
+      "lastname": "mondal",
+      "email": "d@gmail.com",
+      "password": "123",
+      "cartitem": [],
+      "parchesitem": [
+        {
+          "type": "kajal",
+          "name": "IBA Must Have Complete Makeup Box (Fair)",
+          "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/f/3fc4da8IBAHA00000088_1.jpg",
+          "price": 358,
+          "MRP": 551,
+          "id": "7",
+          "quantity": 3
+        }
+      ],
+      "id": 9
     }
   ]
 }

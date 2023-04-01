@@ -56,7 +56,7 @@ const {isAuth}=useSelector((store)=>{
 const dispatch=useDispatch()
 const handlecart=()=>{
   if(isAuth){
-   dispatch(addToCart(id))
+   dispatch(addToCart(id,toast))
 
 
 

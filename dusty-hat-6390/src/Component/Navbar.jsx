@@ -35,8 +35,9 @@ import { BsBag, BsFillPersonFill } from "react-icons/bs";
 import "../CSS/Navbar.css";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { Link, useNavigate } from "react-router-dom";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { forToast } from "../Redux/authReducer/action";
+import { cartShow } from "../Redux/action";
 
 const Navbar = () => {
   const [Width, setWidth] = useState(window.innerWidth);
@@ -60,14 +61,30 @@ const Navbar = () => {
 
   //================>
 
+  const dispatch=useDispatch();
+const [userName,setUserName]=useState("")
+
   // console.log(isAuth);
+  const {render}=useSelector((store)=>{
+    return store.ProductReducer
+  })
   useEffect(() => {
+
+    dispatch(cartShow()).then((userdata)=>{
+      setUserName(userdata.firstname+" "+userdata.lastname)
+      
+    })
     window.addEventListener("resize", DetectWindowSize);
 
     return () => {
       window.removeEventListener("resize", DetectWindowSize);
     };
-  }, [Width]);
+
+    
+
+
+  }, [Width,render]);
+  
 
   const handleLogout = () => {
     localStorage.removeItem("activeid");
@@ -79,6 +96,9 @@ const Navbar = () => {
     },1000)
     
   };
+
+
+
 
   return (
     <>
@@ -148,6 +168,7 @@ const Navbar = () => {
             <Link to={"/cart"}>
               {" "}
               <BsBag size="30px" cursor={"pointer"} />
+              
             </Link>
 
             {/* <Link to={'/userdashboard'}><Avatar size='sm'>
@@ -156,7 +177,7 @@ const Navbar = () => {
             {isAuth ? (
               <Popover >
                 <PopoverTrigger>
-                  <Avatar size="sm" cursor={"pointer"}>
+                  <Avatar size="sm" cursor={"pointer"} name={userName}>
                     <AvatarBadge boxSize="1.25em" bg="green.500" />
                   </Avatar>
                 </PopoverTrigger>
@@ -165,9 +186,11 @@ const Navbar = () => {
                   <PopoverCloseButton />
                   <PopoverHeader fontWeight={'700'}>Dashboard</PopoverHeader>
                   <PopoverBody textAlign={'left'} fontWeight={'500'} cursor='pointer' >
+                    <Link to={'/userdarshboard'}>
                     <Text _hover={{textDecoration:'underline'}} mb='5px'>Update your profile</Text>
                     <Text _hover={{textDecoration:'underline'}} mb='5px'>Your order</Text>
-                    <Text _hover={{textDecoration:'underline'}} mb='10px'>Your cart item</Text>
+                    <Text _hover={{textDecoration:'underline'}} mb='10px'>Your cart item</Text></Link>
+                   
                     <Button
                       _hover={{ bg: "red", color: "white" }}
                       bg="pink"
