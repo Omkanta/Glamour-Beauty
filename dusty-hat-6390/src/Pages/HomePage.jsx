@@ -66,7 +66,7 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div style={{ backgroundColor: "#d8e2dc" }}>
+    <div style={{ backgroundColor: "#f8edeb" }}>
       <Box>
         <Image src="https://files.myglamm.com/site-images/original/Number-1-logo-strip-3360-x-279_1.gif" />
       </Box>
@@ -83,7 +83,7 @@ const HomePage = () => {
           spantag
         </span>
       </Box>
-      <Box display="flex" flexWrap={"wrap"} alignItems={"center"}>
+      <Box display="flex" flexWrap={"wrap"} alignItems={"center"} mt="30px">
         <Image src={ImageUrl1} />
       </Box>
       <Box m="20px">
@@ -542,7 +542,7 @@ const HomePage = () => {
               src="https://files.myglamm.com/site-images/400x400/Facewash_3.jpg"
             />
             <Text fontSize={"sm"} fontWeight="500">
-              MyGlamm WIPEOUT Germ Killing Facewash
+              MyGlamm WIPEOUT Germ Killing
             </Text>
             <p style={{ fontSize: "13px" }}>
               Tea Tree Oil & Vitamin-E Infused Face wash
