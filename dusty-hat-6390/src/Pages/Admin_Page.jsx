@@ -10,6 +10,7 @@ import {Text} from '@chakra-ui/react'
     Thead,
     Tbody,
     Tr,
+    Center,
     Th,
     Td,
     TableContainer,
@@ -70,6 +71,7 @@ import {Text} from '@chakra-ui/react'
    }
    
     return (
+      <Center>
       <div >
           <Text fontSize={'2xl'} mt={'10px'}>Add new Product</Text>
           <Select placeholder='Select Category' w='20%' m='auto' mt='30px' value={category} onChange={(e)=>setcategory(e.target.value)}> 
@@ -95,9 +97,9 @@ import {Text} from '@chakra-ui/react'
                 {data.map((el)=> (
                   <Tr key={el.id} className = "houseDetails"  >
                   {/* <Td  className = "name" >{el.brand}</Td> */}
-                  <Td className = "ownersName" >{el.name}</Td>
-                  <Td  className = "address" ><Image width="30%"  src={el.image}></Image></Td>
-                  <Td className = "areaCode" >Rs {el.price}</Td>
+                  <Td fontSize={'lg'} fontWeight={'bold'} className = "name" >{el.name}</Td>
+                  <Td  className = "image" ><Image width="30%"  src={el.image}></Image></Td>
+                  <Td fontWeight={'bold'} className = "price" >Rs {el.price}</Td>
                   <Td _hover={{cursor:"pointer"}} className = "edit"  ><Button colorScheme="blue">Edit</Button>  </Td>
                   <Td _hover={{cursor:"pointer"}} className = "delete"  ><Button onClick={()=>handleDelete(el.id)} colorScheme="red">Delete</Button>  </Td>
                   
@@ -107,6 +109,7 @@ import {Text} from '@chakra-ui/react'
             </Table>
           </TableContainer>
       </div>
+      </Center>
     )
   }
   
