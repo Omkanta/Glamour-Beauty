@@ -9,8 +9,8 @@ function App() {
        
       <Navbar />
       <MainRoutes />
+      
       <Footer />
-      <ProductList/>
     </div>
   );
 }

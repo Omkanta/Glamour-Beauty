@@ -10,6 +10,7 @@ import PrivateRoute from "../Component/PrivateRoute";
 import UserProfile from "../Pages/UserProfile";
 import Pro from "../Pages/Pro";
 import { ProductList } from "../Component/ProductList";
+import NotFound from "../Pages/NotFound";
 
 const MainRoutes = () => {
   return (
@@ -27,6 +28,7 @@ const MainRoutes = () => {
       <Route path="/admin_page" element={<Admin_Page />} />
       <Route path="/products/:id" element={<Pro/>}/>
       <Route path="/products" element={<ProductList/>}/>
+      <Route path="*" element={<NotFound/>}></Route>
     </Routes>
   );
 };

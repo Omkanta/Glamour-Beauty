@@ -154,7 +154,7 @@ const Navbar = () => {
               <AvatarBadge  boxSize='1.25em' bg='green.500' />
             </Avatar></Link> */}
             {isAuth ? (
-              <Popover>
+              <Popover >
                 <PopoverTrigger>
                   <Avatar size="sm" cursor={"pointer"}>
                     <AvatarBadge boxSize="1.25em" bg="green.500" />

@@ -1036,14 +1036,6 @@
   "kajal": [
     {
       "type": "kajal",
-      "name": "Mamaearth Charcoal Black Long Stay Kajal Black Waterproof",
-      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/a/ea5058a8906087776758__1_.jpg",
-      "price": 263,
-      "MRP": 299,
-      "id": "6"
-    },
-    {
-      "type": "kajal",
       "name": "IBA Must Have Complete Makeup Box (Fair)",
       "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/f/3fc4da8IBAHA00000088_1.jpg",
       "price": 358,
@@ -1332,14 +1324,6 @@
     }
   ],
   "lipstick": [
-    {
-      "type": "lipstick",
-      "name": "Nykaa",
-      "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/e/ee635cdMAYBE00000252_1.jpg",
-      "price": 898,
-      "MRP": 898,
-      "id": "43"
-    },
     {
       "type": "lipstick",
       "name": "Chambor",
