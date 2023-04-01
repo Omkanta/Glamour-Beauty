@@ -30,7 +30,7 @@ import {FaSmileBeam} from "react-icons/fa"
 
   export default function Pro() {
 
-    const [detail,setdetail] = useState([])
+    const [detail,setdetail] = useState([])||[]
     const {id} = useParams()
   
     const {Products} = useSelector((store)=>store.ProductReducer)
@@ -40,7 +40,7 @@ import {FaSmileBeam} from "react-icons/fa"
       setdetail(setid)
     },[])
   
-    console.log(detail)
+    
   
     
 
@@ -66,10 +66,10 @@ import {FaSmileBeam} from "react-icons/fa"
               src={detail.image}
               fit={'cover'}
               align={'center'}
-              w={'60%'}
+              w={"70%"}
               p={"10px"}
               pl={"20px"}
-              h={{ base: '100%', sm: '400px', lg: '500px' }}
+              h={"50%"}
             />
             <div ></div>
           </Flex >
@@ -136,7 +136,7 @@ import {FaSmileBeam} from "react-icons/fa"
                   </ListItem>
                   <ListItem>
                     <Text as={'span'} fontWeight={'bold'}>
-                      type:
+                      Type:
                     </Text>{' '}
                    {detail.type}
                   </ListItem>
@@ -150,7 +150,7 @@ import {FaSmileBeam} from "react-icons/fa"
                     <Text as={'span'} fontWeight={'bold'}>
                      Size:
                     </Text>{' '}
-                    {(Math.random(1*30)*1000).toFixed(0)}
+                    {(Math.random(1*30)*1000).toFixed(0)}{""}gm
                   </ListItem>
                  
                  
@@ -165,6 +165,12 @@ import {FaSmileBeam} from "react-icons/fa"
                       Water resistance:
                     </Text>{' '}
                     Yes
+                  </ListItem>
+                  <ListItem fontWeight={'bold'}>
+                    <Text as={'span'} fontWeight={'bold'}>
+                      Price:
+                    </Text>{' '}
+                   {" "} ₹{detail.price}
                   </ListItem>
                 </List>
               </Box>
