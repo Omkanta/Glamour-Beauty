@@ -14,7 +14,7 @@ export const authfailure = () => {
 export const forSignup = (userData) => (dispatch) => {
   dispatch(authrequest());
   return axios
-    .post(`http://localhost:3000/users`, { ...userData, cartitem: [] })
+    .post(`http://localhost:8080/users`, { ...userData, cartitem: [] })
     .then((res) => {
       dispatch(authsuccess());
       localStorage.setItem("activeid",JSON.stringify(res.data.id))
@@ -28,7 +28,7 @@ export const forSignup = (userData) => (dispatch) => {
 
 export const forLogin = (userData) => (dispatch) => {
   dispatch(authrequest());
-  return axios.get(`http://localhost:3000/users`).then((res) => {
+  return axios.get(`http://localhost:8080/users`).then((res) => {
     for (const i of res.data) {
       if (i.email == userData.email && i.password == userData.password) {
         dispatch(authsuccess());

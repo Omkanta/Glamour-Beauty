@@ -157,7 +157,52 @@ const Navbar = () => {
                 }}
                 placeholder="Find Lipstick, Eyeliner, MakeUP tutorial, etc. "
               />
+
+            </div>
+          </Flex>
+          <Flex justifyContent={"space-around"} alignItems="center" gap="20px">
+            <Link to={"/cart"}>
+              {" "}
+              <BsBag size="30px" cursor={"pointer"} />
+            </Link>
+
+            {/* <Link to={'/userdashboard'}><Avatar size='sm'>
+              <AvatarBadge  boxSize='1.25em' bg='green.500' />
+            </Avatar></Link> */}
+            {isAuth ? (
+              <Popover >
+                <PopoverTrigger>
+                  <Avatar size="sm" cursor={"pointer"}>
+                    <AvatarBadge boxSize="1.25em" bg="green.500" />
+                  </Avatar>
+                </PopoverTrigger>
+                <PopoverContent>
+                  <PopoverArrow />
+                  <PopoverCloseButton />
+                  <PopoverHeader fontWeight={'700'}>Dashboard</PopoverHeader>
+                  <PopoverBody textAlign={'left'} fontWeight={'500'} cursor='pointer' >
+                    <Text _hover={{textDecoration:'underline'}} mb='5px'>Update your profile</Text>
+                    <Text _hover={{textDecoration:'underline'}} mb='5px'>Your order</Text>
+                    <Text _hover={{textDecoration:'underline'}} mb='10px'>Your cart item</Text>
+                    <Button
+                      _hover={{ bg: "red", color: "white" }}
+                      bg="pink"
+                      onClick={handleLogout}
+                    >
+                      Logout
+                    </Button>
+                  </PopoverBody>
+                </PopoverContent>
+              </Popover>
+            ) : (
+              <Link to={"/login"}>
+                {" "}
+                <BsFillPersonFill size="30px" cursor={"pointer"} />
+              </Link>
+            )}
+
             </Flex>
+
           </Flex>
           <Flex alignItems={"center"} justifyContent={"space-between"}>
             <Box m="20px">

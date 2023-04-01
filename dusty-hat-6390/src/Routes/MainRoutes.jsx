@@ -10,11 +10,15 @@ import PrivateRoute from "../Component/PrivateRoute";
 import UserProfile from "../Pages/UserProfile";
 import Pro from "../Pages/Pro";
 import { ProductList } from "../Component/ProductList";
+
+import NotFound from "../Pages/NotFound";
+
 import { Kjallist } from "../Component/Kjallist";
 import { Lipbam } from "../Component/Lipbam";
 import { Foundation } from "../Component/Foundation";
 import { Facewash } from "../Component/Facewash";
 import AddProduct from "../Pages/AddProduct";
+
 
 const MainRoutes = () => {
   return (
@@ -33,6 +37,9 @@ const MainRoutes = () => {
       <Route path="userdarshboard" element={<UserProfile />} />
       <Route path="/admin_login" element={<Admin_Login />} />
       <Route path="/admin_page" element={<Admin_Page />} />
+
+      <Route path="*" element={<NotFound/>}></Route>
+
       <Route path="/products/:id" element={<Pro/>}/>
       <Route path="/products" element={<ProductList/>}/>
       <Route path="/kajal" element={<Kjallist/>}/>
@@ -40,6 +47,7 @@ const MainRoutes = () => {
       <Route path="/facewash" element={<Facewash/>}/>
       <Route path="/foundation" element={<Foundation/>}/>
       <Route path="/add_product" element={<AddProduct/>}/>
+
     </Routes>
   );
 };
