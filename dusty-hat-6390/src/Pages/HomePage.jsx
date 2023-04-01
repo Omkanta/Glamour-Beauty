@@ -346,7 +346,8 @@ const HomePage = () => {
               src="https://files.myglamm.com/site-images/original/Lips-3.png"
             />
             <Text fontSize={"md"} fontWeight="bold" m="5px">
-              Lips
+              <Link to={"/lipstick"}>Lips</Link>
+              
             </Text>
           </Box>
           <Box>
@@ -367,7 +368,8 @@ const HomePage = () => {
               src="https://files.myglamm.com/site-images/original/Eyes-4.png"
             />
             <Text fontSize={"md"} fontWeight="bold" m="5px">
-              Eyes
+            <Link to={"/kajal"}>Eyes</Link>
+              
             </Text>
           </Box>
           <Box>
@@ -377,7 +379,8 @@ const HomePage = () => {
               src="https://files.myglamm.com/site-images/original/Face-5.png"
             />
             <Text fontSize={"md"} fontWeight="bold" m="5px">
-              Face
+            <Link to={"/facewash"}>Face</Link>
+              
             </Text>
           </Box>
           <Box>
@@ -397,7 +400,8 @@ const HomePage = () => {
               src="https://files.myglamm.com/site-images/original/App-PersonalCare_2.png"
             />
             <Text fontSize={"md"} fontWeight="bold" m="5px">
-              Sanitizing Care
+             
+              <Link to={"/foundation"}> Sanitizing Care</Link>
             </Text>
           </Box>
           <Box>

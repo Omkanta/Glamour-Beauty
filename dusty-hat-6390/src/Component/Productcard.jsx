@@ -38,7 +38,7 @@ const navigate = useNavigate()
   return (
     <div style={{height:"600px"}}>
 
-    <div style={{border:"1px solid black",boxShadow:"rgba(0, 0, 0, 0.35) 0px 5px 15px"}} >
+    <div style={{height:"500px",border:"1px solid black",boxShadow:"rgba(0, 0, 0, 0.35) 0px 5px 15px"}} >
         <img className='Product__List__Child'  src={image} alt="" />
         <h3 style={{fontWeight:"700",padding:"7px"}}>{name}</h3>
         <p style={{fontWeight:"700",padding:"7px"}}>{type}</p>
