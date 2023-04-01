@@ -13,6 +13,10 @@ import { ProductList } from "../Component/ProductList";
 
 import NotFound from "../Pages/NotFound";
 
+import { Kjallist } from "../Component/Kjallist";
+import { Lipbam } from "../Component/Lipbam";
+import { Foundation } from "../Component/Foundation";
+import { Facewash } from "../Component/Facewash";
 import AddProduct from "../Pages/AddProduct";
 
 
@@ -36,8 +40,12 @@ const MainRoutes = () => {
 
       <Route path="*" element={<NotFound/>}></Route>
 
-      <Route path="/products/:id" element={<Pro />} />
-      <Route path="/products" element={<ProductList />} />
+      <Route path="/products/:id" element={<Pro/>}/>
+      <Route path="/products" element={<ProductList/>}/>
+      <Route path="/kajal" element={<Kjallist/>}/>
+      <Route path="/lipstick" element={<Lipbam/>}/>
+      <Route path="/facewash" element={<Facewash/>}/>
+      <Route path="/foundation" element={<Foundation/>}/>
       <Route path="/add_product" element={<AddProduct/>}/>
 
     </Routes>

@@ -12,8 +12,8 @@ export const getProduct = (paramobj)=>(dispatch)=>{
     .catch(()=>{
         dispatch({type:PRODUCT_REQ_FAILURE})
     })
-
 }
+
 
 
 
@@ -30,4 +30,48 @@ export const addToCart=(id)=>()=>{
   
     })
     
+
+export const getkajal = (paramobj)=>(dispatch)=>{
+    dispatch({type:PRODUCT_REQ_PENDNG})
+
+    axios.get(`http://localhost:3000/kajal`,paramobj).then((res)=>{
+        dispatch({type:PRODUCT_REQ_SUCESS,payload:res.data})
+    })
+    .catch(()=>{
+        dispatch({type:PRODUCT_REQ_FAILURE})
+    })
+}
+
+export const getFoundation = (paramobj)=>(dispatch)=>{
+    dispatch({type:PRODUCT_REQ_PENDNG})
+
+    axios.get(`http://localhost:3000/foundation`,paramobj).then((res)=>{
+        dispatch({type:PRODUCT_REQ_SUCESS,payload:res.data})
+    })
+    .catch(()=>{
+        dispatch({type:PRODUCT_REQ_FAILURE})
+    })
+}
+
+
+export const getFacewash = (paramobj)=>(dispatch)=>{
+    dispatch({type:PRODUCT_REQ_PENDNG})
+
+    axios.get(`http://localhost:3000/facewash`,paramobj).then((res)=>{
+        dispatch({type:PRODUCT_REQ_SUCESS,payload:res.data})
+    })
+    .catch(()=>{
+        dispatch({type:PRODUCT_REQ_FAILURE})
+    })
+}
+
+export const getLipbam = (paramobj)=>(dispatch)=>{
+    dispatch({type:PRODUCT_REQ_PENDNG})
+
+    axios.get(`http://localhost:3000/lipstick`,paramobj).then((res)=>{
+        dispatch({type:PRODUCT_REQ_SUCESS,payload:res.data})
+    })
+    .catch(()=>{
+        dispatch({type:PRODUCT_REQ_FAILURE})
+    })
 }
