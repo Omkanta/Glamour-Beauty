@@ -25,7 +25,8 @@ import {
 } from "@chakra-ui/react";
 
 import React, { useEffect, useState } from "react";
-import { AiFillGift, AiFillShop } from "react-icons/ai";
+import { AiFillGift } from "react-icons/ai";
+import { RiAdminFill } from "react-icons/ri";
 import { FiSearch } from "react-icons/fi";
 import { BsBag, BsFillPersonFill } from "react-icons/bs";
 import "../CSS/Navbar.css";
@@ -125,8 +126,8 @@ const Navbar = () => {
               </Text>
             </Flex>
             <Flex alignItems={"center"} gap="10px" cursor={"pointer"}>
-              <AiFillShop size="20px" />
-              <Text>MyGlamm Store</Text>
+              <RiAdminFill size="20px" />
+              <Text onClick={() => navigate("/admin_login")}>Admin Login</Text>
             </Flex>
           </Flex>
         </Box>
@@ -192,202 +193,52 @@ const Navbar = () => {
                         </Text>
                       </Box>
                       <Box>
-                        <Menu>
-                          <MenuButton className="navbar-items">
-                            MakeUp
-                          </MenuButton>
-                          <MenuList>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 1
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 2
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 3
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 4
-                            </MenuItem>
-                          </MenuList>
-                        </Menu>
+                        <Text
+                          className="navbar-items"
+                          onClick={() => navigate("/kajal")}
+                        >
+                          KAJAL
+                        </Text>
                       </Box>
                       <Box>
-                        <Menu>
-                          <MenuButton className="navbar-items">
-                            HAIR CARE
-                          </MenuButton>
-                          <MenuList>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 1
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 2
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 3
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 4
-                            </MenuItem>
-                          </MenuList>
-                        </Menu>
+                        <Text
+                          className="navbar-items"
+                          onClick={() => navigate("/foundation")}
+                        >
+                          FOUNDATION
+                        </Text>
                       </Box>
                       <Box>
-                        <Menu>
-                          <MenuButton className="navbar-items">
-                            BATH & BODY
-                          </MenuButton>
-                          <MenuList>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 1
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 2
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 3
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 4
-                            </MenuItem>
-                          </MenuList>
-                        </Menu>
+                        <Text
+                          className="navbar-items"
+                          onClick={() => navigate("/facewash")}
+                        >
+                          FACEWASH
+                        </Text>
                       </Box>
                       <Box>
-                        <Menu>
-                          <MenuButton className="navbar-items">
-                            SKINCARE
-                          </MenuButton>
-                          <MenuList>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 1
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 2
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 3
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 4
-                            </MenuItem>
-                          </MenuList>
-                        </Menu>
+                        <Text
+                          className="navbar-items"
+                          onClick={() => navigate("/lipstick")}
+                        >
+                          LIPSTICK
+                        </Text>
                       </Box>
                       <Box>
-                        <Menu>
-                          <MenuButton className="navbar-items">
-                            SANITIZING CARE
-                          </MenuButton>
-                          <MenuList>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 1
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 2
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 3
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 4
-                            </MenuItem>
-                          </MenuList>
-                        </Menu>
+                        <Text
+                          className="navbar-items"
+                          onClick={() => navigate("/")}
+                        >
+                          SANITIZING CARE
+                        </Text>
                       </Box>
                       <Box>
-                        <Menu>
-                          <MenuButton className="navbar-items">
-                            COLLECTION
-                          </MenuButton>
-                          <MenuList>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 1
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 2
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 3
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 4
-                            </MenuItem>
-                          </MenuList>
-                        </Menu>
+                        <Text
+                          className="navbar-items"
+                          onClick={() => navigate("/")}
+                        >
+                          COLLECTION
+                        </Text>
                       </Box>
                       <Box>
                         <Text className="navbar-items">MYGLAMM STUDIO</Text>
@@ -519,16 +370,19 @@ const Navbar = () => {
                       fontWeight={"500"}
                       cursor="pointer"
                     >
-                      <Link to={'/userprofile'}>
-                      <Text _hover={{ textDecoration: "underline" }} mb="5px">
-                        Update your profile
-                      </Text>
-                      <Text _hover={{ textDecoration: "underline" }} mb="5px">
-                        Your order
-                      </Text>
-                      <Text _hover={{ textDecoration: "underline" }} mb="10px">
-                        Your cart item
-                      </Text>
+                      <Link to={"/userprofile"}>
+                        <Text _hover={{ textDecoration: "underline" }} mb="5px">
+                          Update your profile
+                        </Text>
+                        <Text _hover={{ textDecoration: "underline" }} mb="5px">
+                          Your order
+                        </Text>
+                        <Text
+                          _hover={{ textDecoration: "underline" }}
+                          mb="10px"
+                        >
+                          Your cart item
+                        </Text>
                       </Link>
                       <Button
                         _hover={{ bg: "red", color: "white" }}
@@ -562,16 +416,36 @@ const Navbar = () => {
                 </Text>
               </Box>
               <Box>
-                <Text className="navbar-items">MakeUp</Text>
+                <Text
+                  className="navbar-items"
+                  onClick={() => navigate("/kajal")}
+                >
+                  KAJAL
+                </Text>
               </Box>
               <Box>
-                <Text className="navbar-items">HAIR CARE</Text>
+                <Text
+                  className="navbar-items"
+                  onClick={() => navigate("/foundation")}
+                >
+                  FOUNDATION
+                </Text>
               </Box>
               <Box>
-                <Text className="navbar-items">BATH & BODY</Text>
+                <Text
+                  className="navbar-items"
+                  onClick={() => navigate("/facewash")}
+                >
+                  FACEWASH
+                </Text>
               </Box>
               <Box>
-                <Text className="navbar-items">SKINCARE</Text>
+                <Text
+                  className="navbar-items"
+                  onClick={() => navigate("/lipstick")}
+                >
+                  LIPSTICK
+                </Text>
               </Box>
               <Box>
                 <Text className="navbar-items">SANITIZING CARE</Text>
