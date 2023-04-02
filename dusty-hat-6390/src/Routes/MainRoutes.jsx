@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Router, Routes } from "react-router-dom";
 import Admin_Login from "../Pages/Admin_Login";
 import { Admin_Page } from "../Pages/Admin_Page";
 import HomePage from "../Pages/HomePage";
@@ -12,6 +12,8 @@ import Pro from "../Pages/Pro";
 import { ProductList } from "../Component/ProductList";
 
 import NotFound from "../Pages/NotFound";
+import Payment from "../Pages/Payment";
+import PaymentSuccess from "../Pages/PaymentSuccess";
 
 import { Kjallist } from "../Component/Kjallist";
 import { Lipbam } from "../Component/Lipbam";
@@ -42,11 +44,18 @@ const MainRoutes = () => {
 
       <Route path="/products/:id" element={<Pro/>}/>
       <Route path="/products" element={<ProductList/>}/>
+
+      <Route path="/payment" element={<Payment/>}></Route>
+      <Route path="/paymentsuccess" element={<PaymentSuccess/>}></Route>
+      
+      <Route path="*" element={<NotFound/>}></Route>
+=======
       <Route path="/kajal" element={<Kjallist/>}/>
       <Route path="/lipstick" element={<Lipbam/>}/>
       <Route path="/facewash" element={<Facewash/>}/>
       <Route path="/foundation" element={<Foundation/>}/>
       <Route path="/add_product" element={<AddProduct/>}/>
+
 
     </Routes>
   );

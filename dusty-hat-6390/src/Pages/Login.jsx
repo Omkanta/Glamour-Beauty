@@ -15,6 +15,7 @@ import { useDispatch } from 'react-redux';
 import { forLogin, forToast } from '../Redux/authReducer/action';
 import { useToast } from '@chakra-ui/react'
 import { useNavigate } from 'react-router-dom';
+import { forRender } from '../Redux/action';
 const Login = () => {
 const int={
   email:"",
@@ -36,6 +37,7 @@ dispatch(forLogin(loginData)).then((res)=>{
     forToast(toast,"Login successfull😊","success")
     setLoginData(int)
     navigate('/')
+    dispatch(forRender)
 
   }else{
     forToast(toast,"wrong cradential❌","error")

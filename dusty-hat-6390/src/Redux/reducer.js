@@ -1,9 +1,10 @@
-import { PRODUCT_REQ_FAILURE, PRODUCT_REQ_PENDNG, PRODUCT_REQ_SUCESS } from "./actiontype"
+import { FOR_RENDER, PRODUCT_REQ_FAILURE, PRODUCT_REQ_PENDNG, PRODUCT_REQ_SUCESS } from "./actiontype"
 
 const initalstate = {
     isLoading: false,
     isError: false,
     Products: [],
+    render:false
 }
 
 export const reducer = (state = initalstate, { type, payload }) => {
@@ -19,6 +20,10 @@ export const reducer = (state = initalstate, { type, payload }) => {
         case PRODUCT_REQ_FAILURE:
             return {
                 ...state, isLoading: false, isError: true
+            }
+        case FOR_RENDER:
+            return {
+                ...state, render: !state.render
             }
         default:
             return state

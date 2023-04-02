@@ -10,10 +10,11 @@ import {
 } from "@chakra-ui/react";
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import logo from "../allImages/glamour.jpg";
 import { forSignup, forToast } from "../Redux/authReducer/action";
 import { useToast } from '@chakra-ui/react'
+import { forRender } from "../Redux/action";
 const SignUp = () => {
 const int={
   firstname:"",
@@ -24,6 +25,7 @@ const int={
 const [signupData,setSignupData]=useState(int);
 const dispatch=useDispatch();
 const toast=useToast()
+const navigate=useNavigate()
 const handlechange=(e)=>{
   const {name,value}=e.target;
   setSignupData({...signupData,[name]:value});
@@ -34,6 +36,8 @@ const handlesubmit=(e)=>{
       if(res){
         setSignupData(int);
         forToast(toast,"Account created","success")
+        navigate("/")
+        dispatch(forRender)
 
       }else{
         forToast(toast,"Somthing wrong!","error")

@@ -14,7 +14,7 @@ export const authfailure = () => {
 export const forSignup = (userData) => (dispatch) => {
   dispatch(authrequest());
   return axios
-    .post(`http://localhost:8080/users`, { ...userData, cartitem: [] })
+    .post(`http://localhost:8080/users`, { ...userData, cartitem: [] ,parchesitem:[]})
     .then((res) => {
       dispatch(authsuccess());
       localStorage.setItem("activeid",JSON.stringify(res.data.id))
