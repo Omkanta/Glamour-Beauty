@@ -57,7 +57,7 @@ dispatch(cartShow()).then((cartProduct)=>{
       
       </Box>
       {
-          cartPro.length!=0 && <Box w='40%' boxShadow={'md'} p='60px 20px'  m='auto' mt='20px' borderRadius={'10px'} bg='blue.50' >
+          cartPro.length!=0 && <Box w={['90%','90%','40%']} boxShadow={'md'} p='60px 20px'  m='auto' mt='20px' borderRadius={'10px'} bg='blue.50' >
            
           <Heading size={'sm'}>Order Summary</Heading>
           <Box display={'flex'} justifyContent={'space-between'} p={'10px'}>

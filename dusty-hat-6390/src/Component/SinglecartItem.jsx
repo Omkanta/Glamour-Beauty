@@ -26,9 +26,9 @@ const handleDelete=()=>{
 }
 
   return (
-    <Flex m='15px' justifyContent={'space-between'}>
+    <Flex m='15px' justifyContent={'space-between'} direction={['column','column','row']} gap={'10px'}>
         <Box display={'flex'} gap={'15px'}>
-            <Image src={image} alt='image' w='20%' border={'1px solid pink'} p='10px' borderRadius={'5px'}/>
+            <Image src={image} alt='image' w={['50%','40%','20%']} border={'1px solid pink'} p='10px' borderRadius={'5px'}/>
             <Text display={'flex'} alignItems={'center'} fontWeight={'500'}>{name}
             </Text>
             
@@ -37,7 +37,7 @@ const handleDelete=()=>{
         </Box>
         <Box>
             <Flex gap={'15px'}>
-            <Select onChange={handleChangeQunatity}>
+            <Select onChange={handleChangeQunatity} w='100px'>
                 <option value="">{quantity}</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
