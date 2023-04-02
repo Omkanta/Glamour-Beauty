@@ -27,7 +27,7 @@ import { useParams } from 'react-router-dom';
 import {BsStarHalf} from "react-icons/bs"
 import {BsFillCartCheckFill} from "react-icons/bs"  
 import {FaSmileBeam} from "react-icons/fa"
-
+import axios from "axios"
   export default function Pro() {
 
     const [detail,setdetail] = useState([])||[]
@@ -37,7 +37,8 @@ import {FaSmileBeam} from "react-icons/fa"
   
     useEffect(()=>{
       const setid = Products.find((el)=>el.id===id)
-      setdetail(setid)
+      axios.get(`http://localhost:3000/Products/${id}`).then((res)=>setdetail(res.data))
+      
     },[])
   
     

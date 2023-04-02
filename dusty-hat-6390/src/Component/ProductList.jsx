@@ -4,10 +4,9 @@ import { useLocation, useSearchParams } from 'react-router-dom'
 import { getProduct } from '../Redux/action'
 import { Productcard } from './Productcard'
 import Functionality from './Functionality'
+import "../CSS/ProductCard.css"
 import { Button, ButtonProps, Flex } from '@chakra-ui/react';
 export const ProductList = (ButtonProps) => {
-
-
     const [search] = useSearchParams()
     const dispatch = useDispatch()
     const location = useLocation()
@@ -33,6 +32,7 @@ export const ProductList = (ButtonProps) => {
 
     useEffect(()=>{
         dispatch(getProduct(obj))
+        
     },[location.search,page])
 
 
@@ -46,7 +46,7 @@ export const ProductList = (ButtonProps) => {
             fontSize:"20px",fontWeight:"500",padding:"20px"}}>
             <Functionality />
             </div>
-         <div style={{display:'grid',marginLeft:"20px",gridTemplateColumns:"repeat(3,1fr)",gap:"5px",width:"80%"}}>        
+         <div className='productcard' style={{display:'grid',marginLeft:"20px",gridTemplateColumns:"repeat(3,1fr)",gap:"5px",width:"80%"}}>        
             {
                 Products.length>0 && Products.map((el)=>{
                     return <Productcard key={el.id} {...el} />

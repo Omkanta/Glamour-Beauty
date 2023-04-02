@@ -22,8 +22,7 @@ export const Productcard = ({id,type,name,image,price,MRP}) => {
 const [count,setcount] = useState(0)
 const navigate = useNavigate()
   const handleclick =()=>{
-    // setcount(count=>count+1)
-    // console.log(count)
+    
     console.log("working")
     navigate(`/products/${id}`)
   }
@@ -73,10 +72,10 @@ const navigate = useNavigate()
         <div  style={{paddingLeft:"7px",display:"flex",gridTemplateColumns:"repeat(2,1.5fr,0.5fr)"}}>
 
        
-        <button className='Icon' onClick={handleclick} style={{color:"white",fontSize:"30px",backgroundColor:"#fc2779",width:"100%",marginBottom:"3px"}}>
+        <button className='Icon' onClick={handleclick} style={{height:"40px",color:"white",fontSize:"20px",fontWeight:"500",backgroundColor:"#fc2779",width:"100%",marginBottom:"3px"}}>
         <Link to={`/products/${id}`}>View Details</Link>
         </button>
-        <Icon alignItems={'end'}  fontSize={"50px"} as={AiOutlineHeart}></Icon>
+        <Icon alignItems={'end'}   fontSize={"40px"} as={AiOutlineHeart}></Icon>
         </div>
         </div>
        

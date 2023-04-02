@@ -4,3 +4,21 @@ transform: 'translateY(2px)';
 cursor: pointer;
  box-shadow: 'lg',
 }
+
+
+@media only screen and (min-width: 400px)  {
+
+    
+    .productcard{
+        display:'grid';
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media only screen and (max-width: 800px)  {
+
+}
+
+@media only screen and (max-width: 1200px)  {
+
+}

@@ -2065,6 +2065,14 @@
       "password": "123456",
       "cartitem": [],
       "id": 5
+    },
+    {
+      "firstname": "Ankesh",
+      "lastname": "Sharma",
+      "email": "ankesh9053@gmail.com",
+      "password": "Brahman_45",
+      "cartitem": [],
+      "id": 6
     }
   ]
 }

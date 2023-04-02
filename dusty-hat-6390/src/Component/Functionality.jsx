@@ -140,8 +140,11 @@ const Functionality = () => {
         </PopoverContent>
       </Popover>
     </Flex>
+    <br />
+    <br />
+    <br />
 
-        <h3>Sorting by Price</h3>
+        <h3 style={{fontSize:"20px",fontWeight:"500",color:"",backgroundColor:"white"}}>Sorting by Price</h3>
         <div onChange={handlesort}>
         <input data-testid="movie-sort-asc" type="radio" name="radio" value={"asc"} defaultChecked={order==="asc"} />
         <label>Price Low To High</label>
