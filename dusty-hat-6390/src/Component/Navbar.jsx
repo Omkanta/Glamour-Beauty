@@ -126,6 +126,7 @@ const Navbar = () => {
         </Box>
       )}
       {Width < 600 ? (
+      <>
         <Box p="10px">
           <Flex
             justifyContent={"space-around"}
@@ -158,7 +159,7 @@ const Navbar = () => {
                 placeholder="Find Lipstick, Eyeliner, MakeUP tutorial, etc. "
               />
 
-            </div>
+            </Flex>
           </Flex>
           <Flex justifyContent={"space-around"} alignItems="center" gap="20px">
             <Link to={"/cart"}>
@@ -203,7 +204,7 @@ const Navbar = () => {
 
             </Flex>
 
-          </Flex>
+          {/* </Flex> */}
           <Flex alignItems={"center"} justifyContent={"space-between"}>
             <Box m="20px">
               <Button
@@ -493,6 +494,7 @@ const Navbar = () => {
             </Flex>
           </Flex>
         </Box>
+      </>
       ) : (
         <Box bg="#ffffff" p="20px">
           <Flex

@@ -29,7 +29,7 @@ export const addToCart=(id)=>()=>{
       })
   
     })
-    
+}  
 
 export const getkajal = (paramobj)=>(dispatch)=>{
     dispatch({type:PRODUCT_REQ_PENDNG})
