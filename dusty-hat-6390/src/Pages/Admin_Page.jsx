@@ -17,6 +17,7 @@ import {Text} from '@chakra-ui/react'
     Image,
   } from '@chakra-ui/react';
   import { Input } from '@chakra-ui/react'
+import { Link } from 'react-router-dom';
   
   export const Admin_Page=()=>{
    
@@ -70,10 +71,13 @@ import {Text} from '@chakra-ui/react'
     })
    }
    
+   const handleEdit=(id)=>{
+
+   }
     return (
       <Center>
       <div >
-          <Text fontSize={'2xl'} mt={'10px'}>Add new Product</Text>
+          <Text fontSize={'2xl'} mt={'10px'}>View Product</Text>
           <Select placeholder='Select Category' w='20%' m='auto' mt='30px' value={category} onChange={(e)=>setcategory(e.target.value)}> 
     <option value='kajal'>Kajal</option>
     <option value='lipstick'>Lipstick</option>
@@ -100,7 +104,7 @@ import {Text} from '@chakra-ui/react'
                   <Td fontSize={'lg'} fontWeight={'bold'} className = "name" >{el.name}</Td>
                   <Td  className = "image" ><Image width="30%"  src={el.image}></Image></Td>
                   <Td fontWeight={'bold'} className = "price" >Rs {el.price}</Td>
-                  <Td _hover={{cursor:"pointer"}} className = "edit"  ><Button colorScheme="blue">Edit</Button>  </Td>
+                  <Td _hover={{cursor:"pointer"}} className = "edit"  ><Button colorScheme="blue"><Link to={`/edit/${el.id}`}>Edit</Link></Button>  </Td>
                   <Td _hover={{cursor:"pointer"}} className = "delete"  ><Button onClick={()=>handleDelete(el.id)} colorScheme="red">Delete</Button>  </Td>
                   
               </Tr>
