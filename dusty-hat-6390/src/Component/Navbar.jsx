@@ -5,10 +5,6 @@ import {
   Button,
   Flex,
   Image,
-  Menu,
-  MenuButton,
-  MenuItem,
-  MenuList,
   Modal,
   ModalBody,
   ModalCloseButton,
@@ -182,202 +178,22 @@ const Navbar = () => {
                         </Text>
                       </Box>
                       <Box>
-                        <Menu>
-                          <MenuButton className="navbar-items">
-                            MakeUp
-                          </MenuButton>
-                          <MenuList>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 1
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 2
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 3
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 4
-                            </MenuItem>
-                          </MenuList>
-                        </Menu>
+                        <Text className="navbar-items">MakeUp</Text>
                       </Box>
                       <Box>
-                        <Menu>
-                          <MenuButton className="navbar-items">
-                            HAIR CARE
-                          </MenuButton>
-                          <MenuList>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 1
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 2
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 3
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 4
-                            </MenuItem>
-                          </MenuList>
-                        </Menu>
+                        <Text className="navbar-items">HAIR CARE</Text>
                       </Box>
                       <Box>
-                        <Menu>
-                          <MenuButton className="navbar-items">
-                            BATH & BODY
-                          </MenuButton>
-                          <MenuList>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 1
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 2
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 3
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 4
-                            </MenuItem>
-                          </MenuList>
-                        </Menu>
+                        <Text className="navbar-items">BATH & BODY</Text>
                       </Box>
                       <Box>
-                        <Menu>
-                          <MenuButton className="navbar-items">
-                            SKINCARE
-                          </MenuButton>
-                          <MenuList>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 1
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 2
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 3
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 4
-                            </MenuItem>
-                          </MenuList>
-                        </Menu>
+                        <Text className="navbar-items">SKINCARE</Text>
                       </Box>
                       <Box>
-                        <Menu>
-                          <MenuButton className="navbar-items">
-                            SANITIZING CARE
-                          </MenuButton>
-                          <MenuList>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 1
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 2
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 3
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 4
-                            </MenuItem>
-                          </MenuList>
-                        </Menu>
+                        <Text className="navbar-items">SANITIZING CARE</Text>
                       </Box>
                       <Box>
-                        <Menu>
-                          <MenuButton className="navbar-items">
-                            COLLECTION
-                          </MenuButton>
-                          <MenuList>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 1
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 2
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 3
-                            </MenuItem>
-                            <MenuItem
-                              className="hvr-underline-from-center"
-                              bg="none"
-                            >
-                              Item 4
-                            </MenuItem>
-                          </MenuList>
-                        </Menu>
+                        <Text className="navbar-items">COLLECTION</Text>
                       </Box>
                       <Box>
                         <Text className="navbar-items">MYGLAMM STUDIO</Text>
@@ -550,120 +366,22 @@ const Navbar = () => {
                 </Text>
               </Box>
               <Box>
-                <Menu>
-                  <MenuButton className="navbar-items">MakeUp</MenuButton>
-                  <MenuList>
-                    <MenuItem className="hvr-underline-from-center" bg="none">
-                      Item 1
-                    </MenuItem>
-                    <MenuItem className="hvr-underline-from-center" bg="none">
-                      Item 2
-                    </MenuItem>
-                    <MenuItem className="hvr-underline-from-center" bg="none">
-                      Item 3
-                    </MenuItem>
-                    <MenuItem className="hvr-underline-from-center" bg="none">
-                      Item 4
-                    </MenuItem>
-                  </MenuList>
-                </Menu>
+                <Text className="navbar-items">MakeUp</Text>
               </Box>
               <Box>
-                <Menu>
-                  <MenuButton className="navbar-items">HAIR CARE</MenuButton>
-                  <MenuList>
-                    <MenuItem className="hvr-underline-from-center" bg="none">
-                      Item 1
-                    </MenuItem>
-                    <MenuItem className="hvr-underline-from-center" bg="none">
-                      Item 2
-                    </MenuItem>
-                    <MenuItem className="hvr-underline-from-center" bg="none">
-                      Item 3
-                    </MenuItem>
-                    <MenuItem className="hvr-underline-from-center" bg="none">
-                      Item 4
-                    </MenuItem>
-                  </MenuList>
-                </Menu>
+                <Text className="navbar-items">HAIR CARE</Text>
               </Box>
               <Box>
-                <Menu>
-                  <MenuButton className="navbar-items">BATH & BODY</MenuButton>
-                  <MenuList>
-                    <MenuItem className="hvr-underline-from-center" bg="none">
-                      Item 1
-                    </MenuItem>
-                    <MenuItem className="hvr-underline-from-center" bg="none">
-                      Item 2
-                    </MenuItem>
-                    <MenuItem className="hvr-underline-from-center" bg="none">
-                      Item 3
-                    </MenuItem>
-                    <MenuItem className="hvr-underline-from-center" bg="none">
-                      Item 4
-                    </MenuItem>
-                  </MenuList>
-                </Menu>
+                <Text className="navbar-items">BATH & BODY</Text>
               </Box>
               <Box>
-                <Menu>
-                  <MenuButton className="navbar-items">SKINCARE</MenuButton>
-                  <MenuList>
-                    <MenuItem className="hvr-underline-from-center" bg="none">
-                      Item 1
-                    </MenuItem>
-                    <MenuItem className="hvr-underline-from-center" bg="none">
-                      Item 2
-                    </MenuItem>
-                    <MenuItem className="hvr-underline-from-center" bg="none">
-                      Item 3
-                    </MenuItem>
-                    <MenuItem className="hvr-underline-from-center" bg="none">
-                      Item 4
-                    </MenuItem>
-                  </MenuList>
-                </Menu>
+                <Text className="navbar-items">SKINCARE</Text>
               </Box>
               <Box>
-                <Menu>
-                  <MenuButton className="navbar-items">
-                    SANITIZING CARE
-                  </MenuButton>
-                  <MenuList>
-                    <MenuItem className="hvr-underline-from-center" bg="none">
-                      Item 1
-                    </MenuItem>
-                    <MenuItem className="hvr-underline-from-center" bg="none">
-                      Item 2
-                    </MenuItem>
-                    <MenuItem className="hvr-underline-from-center" bg="none">
-                      Item 3
-                    </MenuItem>
-                    <MenuItem className="hvr-underline-from-center" bg="none">
-                      Item 4
-                    </MenuItem>
-                  </MenuList>
-                </Menu>
+                <Text className="navbar-items">SANITIZING CARE</Text>
               </Box>
               <Box>
-                <Menu>
-                  <MenuButton className="navbar-items">COLLECTION</MenuButton>
-                  <MenuList>
-                    <MenuItem className="hvr-underline-from-center" bg="none">
-                      Item 1
-                    </MenuItem>
-                    <MenuItem className="hvr-underline-from-center" bg="none">
-                      Item 2
-                    </MenuItem>
-                    <MenuItem className="hvr-underline-from-center" bg="none">
-                      Item 3
-                    </MenuItem>
-                    <MenuItem className="hvr-underline-from-center" bg="none">
-                      Item 4
-                    </MenuItem>
-                  </MenuList>
-                </Menu>
+                <Text className="navbar-items">COLLECTION</Text>
               </Box>
               <Box>
                 <Text className="navbar-items">MYGLAMM STUDIO</Text>
