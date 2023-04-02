@@ -23,9 +23,7 @@ export const forRender=(dispatch)=>{
 
 
 export const addToCart=(id,toast)=>()=>{
-=======
 
-export const addToCart=(id)=>()=>{
 
     const activeid=JSON.parse(localStorage.getItem("activeid"))
     axios.get(`http://localhost:8080/users/${activeid}`)
@@ -57,7 +55,7 @@ export const addToCart=(id)=>()=>{
 
 //show product on cart page active user
 
-export const cartShow=()=>()=>{
+export const cartShow=()=>(dispatch)=>{
     const activeid=JSON.parse(localStorage.getItem("activeid"))
     return axios.get(`http://localhost:8080/users/${activeid}`).then((res)=>{
         return res.data
@@ -126,7 +124,7 @@ export const makePayment=()=>(dispatch)=>{
         })
         
     });
-=======
+
 }  
 
 export const getkajal = (paramobj)=>(dispatch)=>{

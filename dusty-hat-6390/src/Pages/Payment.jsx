@@ -24,6 +24,7 @@ const Payment = () => {
     const toast=useToast();
     const navigate=useNavigate()
     const showTotal=(cartProduct)=>{
+      // console.log(cartProduct);
         let r=cartProduct.reduce((acc,item)=>{
           acc+=item.quantity*item.price
           return acc
@@ -45,7 +46,8 @@ const Payment = () => {
 
       useEffect(()=>{
         dispatch(cartShow()).then((cartProduct)=>{
-          showTotal(cartProduct)
+        //  console.log((cartProduct.cartitem));
+          showTotal(cartProduct.cartitem)
         })
         },[])
         
