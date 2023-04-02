@@ -6,15 +6,15 @@ import {
     Input,
     Select,
     Stack,
-    Link,
     Button,
     Heading,
     Text,
     useColorModeValue,
   } from '@chakra-ui/react';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux'
-import { addProduct } from '../Redux/AdminReducer/action';
+import { useParams } from 'react-router-dom';
+import axios from 'axios';
 
   const InitialState={
     type:"",
@@ -24,11 +24,11 @@ import { addProduct } from '../Redux/AdminReducer/action';
 
   }
 
-  export default function AddProduct() {
+  export default function EditProduct() {
     const [category,setCategory]=useState("");
     const [product,setProduct]=useState(InitialState);
     const dispatch = useDispatch()
-
+    const {id}=useParams()
 
     const handleChange=(e)=>{
       let {name,value}=e.target;
@@ -44,12 +44,23 @@ import { addProduct } from '../Redux/AdminReducer/action';
       })
     }
 
-    const handleAddProduct=()=>{
-      dispatch(addProduct(product,category))
+     const EditGetProduct = (paramobj)=>{
+      axios.get(`http://localhost:8080/Products`,paramobj).then((res)=>{
+          console.log(res.data);
+  }).catch((er)=>{
+      console.log(er);
+  })
+  }
+    useEffect(()=>{
+      const obj={id}
+      EditGetProduct(obj)
+    },[])
+    const handleEditProduct=()=>{
+    //   dispatch(addProduct(product,category))
       setProduct(InitialState);
       setCategory("")
     }
-
+    console.log(id);
     return (
       <Flex
         minH={'100vh'}
@@ -58,7 +69,7 @@ import { addProduct } from '../Redux/AdminReducer/action';
         bg={useColorModeValue('gray.50', 'gray.800')}>
         <Stack spacing={8} mx={'auto'} w={'xl'} py={12} px={6}>
           <Stack align={'center'}>
-            <Heading fontSize={'3xl'}>Add Products</Heading>
+            <Heading fontSize={'3xl'}>Edit Product: {id}</Heading>
           </Stack>
           <Box
             rounded={'lg'}
@@ -93,7 +104,7 @@ import { addProduct } from '../Redux/AdminReducer/action';
               </FormControl>
               <Stack spacing={10}>
                 <Button
-                onClick={handleAddProduct}
+                onClick={handleEditProduct}
                 mt={5}
                   bg={'blue.400'}
                   color={'white'}

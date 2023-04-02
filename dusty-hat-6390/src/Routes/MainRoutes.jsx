@@ -20,7 +20,7 @@ import { Foundation } from "../Component/Foundation";
 import { Facewash } from "../Component/Facewash";
 import AddProduct from "../Pages/AddProduct";
 import { UserProfile } from "../Pages/UserProfile";
-
+import EditProduct from "../Pages/EditProduct";
 const MainRoutes = () => {
   return (
     <Routes>
@@ -54,6 +54,7 @@ const MainRoutes = () => {
       <Route path="/add_product" element={<AddProduct />} />
 
       <Route path="*" element={<NotFound />}></Route>
+      <Route path="/edit/:id" element={<EditProduct />}/>
     </Routes>
   );
 };

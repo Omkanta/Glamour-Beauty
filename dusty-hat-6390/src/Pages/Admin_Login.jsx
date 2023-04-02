@@ -12,21 +12,31 @@ import {
     useColorModeValue,
   } from '@chakra-ui/react';
 import { useState } from 'react';
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { admin_Login } from '../Redux/AdminReducer/action';
+import { Navigate, useNavigate } from 'react-router-dom';
 
 
   export default function Admin_Login() {
     const [email,setEmail]=useState("");
     const [password,setPassword]=useState("");
-
+    let AdminAuth=useSelector((store)=>store.AdminReducer.auth);
+    const navigate=useNavigate()
     const dispatch=useDispatch();
 const handleClick=()=>{
     const admin_data={
         email,password
         }
-dispatch(admin_Login(admin_data))
+dispatch(admin_Login(admin_data)).then((res)=>{
+  navigate("/admin_page");
+  window.location.reload(false);
+
+})
 }
+
+// if(AdminAuth){
+// <Navigate path={'/admin_page'}/>
+// }
     return (
       <Flex
         minH={'100vh'}
