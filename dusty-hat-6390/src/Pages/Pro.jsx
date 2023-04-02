@@ -15,6 +15,7 @@ import {
     VisuallyHidden,
     List,
     ListItem,
+    useToast
   } from '@chakra-ui/react';
   import { Icon } from '@chakra-ui/react'
   import {TbTruckReturn} from "react-icons/tb"
@@ -22,29 +23,49 @@ import {
 import { useEffect, useState } from 'react';
   import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
   import { MdLocalShipping } from 'react-icons/md';
-import { useSelector } from 'react-redux';
-import { useParams } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+import { Navigate, useNavigate, useParams } from 'react-router-dom';
 import {BsStarHalf} from "react-icons/bs"
 import {BsFillCartCheckFill} from "react-icons/bs"  
 import {FaSmileBeam} from "react-icons/fa"
+import { forToast } from '../Redux/authReducer/action';
+import { addToCart } from '../Redux/action';
 
   export default function Pro() {
 
-    const [detail,setdetail] = useState([])
+    const [detail,setdetail] = useState([])||[]
     const {id} = useParams()
-  
+  const toast=useToast()
     const {Products} = useSelector((store)=>store.ProductReducer)
-  
+  const navigate=useNavigate()
     useEffect(()=>{
       const setid = Products.find((el)=>el.id===id)
       setdetail(setid)
     },[])
   
-    console.log(detail)
+    // console.log(detail)
+
   
     
+//for auth------------>
+const {isAuth}=useSelector((store)=>{
+  return store.authReducer
+})
 
 
+// ----------------------->
+const dispatch=useDispatch()
+const handlecart=()=>{
+  if(isAuth){
+   dispatch(addToCart(id,toast))
+
+
+
+  }else{
+    forToast(toast,"You have to login first",'warning')
+    navigate('/login')
+  }
+}
 
 
 
@@ -66,10 +87,10 @@ import {FaSmileBeam} from "react-icons/fa"
               src={detail.image}
               fit={'cover'}
               align={'center'}
-              w={'60%'}
+              w={"70%"}
               p={"10px"}
               pl={"20px"}
-              h={{ base: '100%', sm: '400px', lg: '500px' }}
+              h={"50%"}
             />
             <div ></div>
           </Flex >
@@ -136,7 +157,7 @@ import {FaSmileBeam} from "react-icons/fa"
                   </ListItem>
                   <ListItem>
                     <Text as={'span'} fontWeight={'bold'}>
-                      type:
+                      Type:
                     </Text>{' '}
                    {detail.type}
                   </ListItem>
@@ -150,7 +171,7 @@ import {FaSmileBeam} from "react-icons/fa"
                     <Text as={'span'} fontWeight={'bold'}>
                      Size:
                     </Text>{' '}
-                    {(Math.random(1*30)*1000).toFixed(0)}
+                    {(Math.random(1*30)*1000).toFixed(0)}{""}gm
                   </ListItem>
                  
                  
@@ -166,26 +187,35 @@ import {FaSmileBeam} from "react-icons/fa"
                     </Text>{' '}
                     Yes
                   </ListItem>
+                  <ListItem fontWeight={'bold'}>
+                    <Text as={'span'} fontWeight={'bold'}>
+                      Price:
+                    </Text>{' '}
+                   {" "} ₹{detail.price}
+                  </ListItem>
                 </List>
               </Box>
             </Stack>
+          {
+              
+              <Button
+              onClick={handlecart}
+                rounded={'none'}
+                // ml={"20px"}
+                // mt={8}
+                w={'full'}
+                size={'lg'}
+                py={'7'}
+               textAlign={'center'}
+                // bg={useColorModeValue('gray.900', 'gray.50')}
+                // color={useColorModeValue('white', 'gray.900')}
+                bg='pink'
+                textTransform={'uppercase'}
+               ><Icon  as={BsFillCartCheckFill}></Icon>
+                Add to cart
+              </Button>
+            }
   
-            <Button
-              rounded={'none'}
-              ml={"20px"}
-              w={'full'}
-              mt={8}
-              size={'lg'}
-              py={'7'}
-              bg={useColorModeValue('gray.900', 'gray.50')}
-              color={useColorModeValue('white', 'gray.900')}
-              textTransform={'uppercase'}
-              _hover={{
-                transform: 'translateY(2px)',
-                boxShadow: 'lg',
-              }}><Icon  as={BsFillCartCheckFill}></Icon>
-              Add to cart
-            </Button>
   
             <Stack direction="row" alignItems="center" justifyContent={'center'}>
               <MdLocalShipping />

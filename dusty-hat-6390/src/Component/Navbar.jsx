@@ -31,8 +31,9 @@ import { BsBag, BsFillPersonFill } from "react-icons/bs";
 import "../CSS/Navbar.css";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { Link, useNavigate } from "react-router-dom";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { forToast } from "../Redux/authReducer/action";
+import { cartShow } from "../Redux/action";
 
 const Navbar = () => {
   const [Width, setWidth] = useState(window.innerWidth);
@@ -58,14 +59,27 @@ const Navbar = () => {
 
   //================>
 
+  const dispatch = useDispatch();
+  const [userName, setUserName] = useState("");
+
   // console.log(isAuth);
+  const { render } = useSelector((store) => {
+    return store.ProductReducer;
+  });
   useEffect(() => {
+    dispatch(cartShow()).then((userdata) => {
+      setUserName(userdata.firstname + " " + userdata.lastname);
+    });
     window.addEventListener("resize", DetectWindowSize);
 
     return () => {
       window.removeEventListener("resize", DetectWindowSize);
     };
-  }, [Width]);
+  }, [Width, render]);
+
+  const handleproduct = () => {
+    navigate("/products");
+  };
 
   const handleLogout = () => {
     localStorage.removeItem("activeid");
@@ -178,22 +192,202 @@ const Navbar = () => {
                         </Text>
                       </Box>
                       <Box>
-                        <Text className="navbar-items">MakeUp</Text>
+                        <Menu>
+                          <MenuButton className="navbar-items">
+                            MakeUp
+                          </MenuButton>
+                          <MenuList>
+                            <MenuItem
+                              className="hvr-underline-from-center"
+                              bg="none"
+                            >
+                              Item 1
+                            </MenuItem>
+                            <MenuItem
+                              className="hvr-underline-from-center"
+                              bg="none"
+                            >
+                              Item 2
+                            </MenuItem>
+                            <MenuItem
+                              className="hvr-underline-from-center"
+                              bg="none"
+                            >
+                              Item 3
+                            </MenuItem>
+                            <MenuItem
+                              className="hvr-underline-from-center"
+                              bg="none"
+                            >
+                              Item 4
+                            </MenuItem>
+                          </MenuList>
+                        </Menu>
                       </Box>
                       <Box>
-                        <Text className="navbar-items">HAIR CARE</Text>
+                        <Menu>
+                          <MenuButton className="navbar-items">
+                            HAIR CARE
+                          </MenuButton>
+                          <MenuList>
+                            <MenuItem
+                              className="hvr-underline-from-center"
+                              bg="none"
+                            >
+                              Item 1
+                            </MenuItem>
+                            <MenuItem
+                              className="hvr-underline-from-center"
+                              bg="none"
+                            >
+                              Item 2
+                            </MenuItem>
+                            <MenuItem
+                              className="hvr-underline-from-center"
+                              bg="none"
+                            >
+                              Item 3
+                            </MenuItem>
+                            <MenuItem
+                              className="hvr-underline-from-center"
+                              bg="none"
+                            >
+                              Item 4
+                            </MenuItem>
+                          </MenuList>
+                        </Menu>
                       </Box>
                       <Box>
-                        <Text className="navbar-items">BATH & BODY</Text>
+                        <Menu>
+                          <MenuButton className="navbar-items">
+                            BATH & BODY
+                          </MenuButton>
+                          <MenuList>
+                            <MenuItem
+                              className="hvr-underline-from-center"
+                              bg="none"
+                            >
+                              Item 1
+                            </MenuItem>
+                            <MenuItem
+                              className="hvr-underline-from-center"
+                              bg="none"
+                            >
+                              Item 2
+                            </MenuItem>
+                            <MenuItem
+                              className="hvr-underline-from-center"
+                              bg="none"
+                            >
+                              Item 3
+                            </MenuItem>
+                            <MenuItem
+                              className="hvr-underline-from-center"
+                              bg="none"
+                            >
+                              Item 4
+                            </MenuItem>
+                          </MenuList>
+                        </Menu>
                       </Box>
                       <Box>
-                        <Text className="navbar-items">SKINCARE</Text>
+                        <Menu>
+                          <MenuButton className="navbar-items">
+                            SKINCARE
+                          </MenuButton>
+                          <MenuList>
+                            <MenuItem
+                              className="hvr-underline-from-center"
+                              bg="none"
+                            >
+                              Item 1
+                            </MenuItem>
+                            <MenuItem
+                              className="hvr-underline-from-center"
+                              bg="none"
+                            >
+                              Item 2
+                            </MenuItem>
+                            <MenuItem
+                              className="hvr-underline-from-center"
+                              bg="none"
+                            >
+                              Item 3
+                            </MenuItem>
+                            <MenuItem
+                              className="hvr-underline-from-center"
+                              bg="none"
+                            >
+                              Item 4
+                            </MenuItem>
+                          </MenuList>
+                        </Menu>
                       </Box>
                       <Box>
-                        <Text className="navbar-items">SANITIZING CARE</Text>
+                        <Menu>
+                          <MenuButton className="navbar-items">
+                            SANITIZING CARE
+                          </MenuButton>
+                          <MenuList>
+                            <MenuItem
+                              className="hvr-underline-from-center"
+                              bg="none"
+                            >
+                              Item 1
+                            </MenuItem>
+                            <MenuItem
+                              className="hvr-underline-from-center"
+                              bg="none"
+                            >
+                              Item 2
+                            </MenuItem>
+                            <MenuItem
+                              className="hvr-underline-from-center"
+                              bg="none"
+                            >
+                              Item 3
+                            </MenuItem>
+                            <MenuItem
+                              className="hvr-underline-from-center"
+                              bg="none"
+                            >
+                              Item 4
+                            </MenuItem>
+                          </MenuList>
+                        </Menu>
                       </Box>
                       <Box>
-                        <Text className="navbar-items">COLLECTION</Text>
+                        <Menu>
+                          <MenuButton className="navbar-items">
+                            COLLECTION
+                          </MenuButton>
+                          <MenuList>
+                            <MenuItem
+                              className="hvr-underline-from-center"
+                              bg="none"
+                            >
+                              Item 1
+                            </MenuItem>
+                            <MenuItem
+                              className="hvr-underline-from-center"
+                              bg="none"
+                            >
+                              Item 2
+                            </MenuItem>
+                            <MenuItem
+                              className="hvr-underline-from-center"
+                              bg="none"
+                            >
+                              Item 3
+                            </MenuItem>
+                            <MenuItem
+                              className="hvr-underline-from-center"
+                              bg="none"
+                            >
+                              Item 4
+                            </MenuItem>
+                          </MenuList>
+                        </Menu>
                       </Box>
                       <Box>
                         <Text className="navbar-items">MYGLAMM STUDIO</Text>
@@ -286,7 +480,7 @@ const Navbar = () => {
                 margin="0px 30px"
               >
                 <button style={{ margin: "0px 10px" }}>
-                  <FiSearch size="25px" />
+                  <FiSearch size="20px" />
                 </button>
                 <input
                   className="search-input"
@@ -312,7 +506,7 @@ const Navbar = () => {
               {isAuth ? (
                 <Popover>
                   <PopoverTrigger>
-                    <Avatar size="sm" cursor={"pointer"}>
+                    <Avatar size="sm" cursor={"pointer"} name={userName}>
                       <AvatarBadge boxSize="1.25em" bg="green.500" />
                     </Avatar>
                   </PopoverTrigger>
@@ -325,6 +519,7 @@ const Navbar = () => {
                       fontWeight={"500"}
                       cursor="pointer"
                     >
+                      <Link to={'/userprofile'}>
                       <Text _hover={{ textDecoration: "underline" }} mb="5px">
                         Update your profile
                       </Text>
@@ -334,6 +529,7 @@ const Navbar = () => {
                       <Text _hover={{ textDecoration: "underline" }} mb="10px">
                         Your cart item
                       </Text>
+                      </Link>
                       <Button
                         _hover={{ bg: "red", color: "white" }}
                         bg="pink"
