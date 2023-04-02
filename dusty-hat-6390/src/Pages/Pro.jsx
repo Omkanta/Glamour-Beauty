@@ -33,7 +33,7 @@ import { addToCart } from '../Redux/action';
 
   export default function Pro() {
 
-    const [detail,setdetail] = useState([])
+    const [detail,setdetail] = useState([])||[]
     const {id} = useParams()
   const toast=useToast()
     const {Products} = useSelector((store)=>store.ProductReducer)
@@ -44,6 +44,7 @@ import { addToCart } from '../Redux/action';
     },[])
   
     // console.log(detail)
+
   
     
 //for auth------------>
@@ -86,10 +87,10 @@ const handlecart=()=>{
               src={detail.image}
               fit={'cover'}
               align={'center'}
-              w={'60%'}
+              w={"70%"}
               p={"10px"}
               pl={"20px"}
-              h={{ base: '100%', sm: '400px', lg: '500px' }}
+              h={"50%"}
             />
             <div ></div>
           </Flex >
@@ -156,7 +157,7 @@ const handlecart=()=>{
                   </ListItem>
                   <ListItem>
                     <Text as={'span'} fontWeight={'bold'}>
-                      type:
+                      Type:
                     </Text>{' '}
                    {detail.type}
                   </ListItem>
@@ -170,7 +171,7 @@ const handlecart=()=>{
                     <Text as={'span'} fontWeight={'bold'}>
                      Size:
                     </Text>{' '}
-                    {(Math.random(1*30)*1000).toFixed(0)}
+                    {(Math.random(1*30)*1000).toFixed(0)}{""}gm
                   </ListItem>
                  
                  
@@ -185,6 +186,12 @@ const handlecart=()=>{
                       Water resistance:
                     </Text>{' '}
                     Yes
+                  </ListItem>
+                  <ListItem fontWeight={'bold'}>
+                    <Text as={'span'} fontWeight={'bold'}>
+                      Price:
+                    </Text>{' '}
+                   {" "} ₹{detail.price}
                   </ListItem>
                 </List>
               </Box>

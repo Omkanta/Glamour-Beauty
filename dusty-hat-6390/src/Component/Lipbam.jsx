@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { useLocation, useSearchParams } from 'react-router-dom'
-import { getProduct } from '../Redux/action'
+import { getLipbam, getProduct } from '../Redux/action'
 import { Productcard } from './Productcard'
 import Functionality from './Functionality'
 import { Button, ButtonProps, Flex } from '@chakra-ui/react';
-export const ProductList = (ButtonProps) => {
+export const Lipbam = () => {
 
 
     const [search] = useSearchParams()
@@ -14,25 +14,22 @@ export const ProductList = (ButtonProps) => {
     const {Products} = useSelector((store)=>store.ProductReducer)
     const limit = 9;
     const [page,setpage] = useState(1);
-
-
-    
-
     const handlepage = (value) => {
         setpage(page + value);
       };
+
     let obj = {
         params:{
-             type:search.getAll("filter"),
-            _limit:limit,
-            _page:page,
-            _sort:search.get("order") && "price",
-            _order:search.get("order")
-        }
+            type:search.getAll("filter"),
+           _limit:limit,
+           _page:page,
+           _sort:search.get("order") && "price",
+           _order:search.get("order")
+       }
     }
 
     useEffect(()=>{
-        dispatch(getProduct(obj))
+        dispatch(getLipbam(obj))
     },[location.search,page])
 
 
@@ -42,8 +39,7 @@ export const ProductList = (ButtonProps) => {
 
     <div style={{display:"flex",width:"100%"}}>
      
-            <div style={{backgroundColor:"white",textAlign:"left",width:"20%",borderRight:"1px solid green",
-            fontSize:"20px",fontWeight:"500",padding:"20px"}}>
+            <div style={{backgroundColor:"white",textAlign:"left",width:"20%",borderRight:"1px solid green",fontSize:"20px",fontWeight:"500",padding:"20px"}}>
             <Functionality />
             </div>
          <div style={{display:'grid',marginLeft:"20px",gridTemplateColumns:"repeat(3,1fr)",gap:"5px",width:"80%"}}>        

@@ -10,6 +10,7 @@ import {
 } from "@chakra-ui/react";
 import { AiFillStar } from "react-icons/ai";
 import "../CSS/HoverGrow.css";
+import { Link } from "react-router-dom";
 
 const AllImages1 = [
   "https://files.myglamm.com/site-images/original/ult1920x527_1.jpg",
@@ -65,7 +66,7 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div style={{ backgroundColor: "#d8e2dc" }}>
+    <div style={{ backgroundColor: "#f8edeb" }}>
       <Box>
         <Image src="https://files.myglamm.com/site-images/original/Number-1-logo-strip-3360-x-279_1.gif" />
       </Box>
@@ -82,7 +83,7 @@ const HomePage = () => {
           spantag
         </span>
       </Box>
-      <Box display="flex" flexWrap={"wrap"} alignItems={"center"}>
+      <Box display="flex" flexWrap={"wrap"} alignItems={"center"} mt="30px">
         <Image src={ImageUrl1} />
       </Box>
       <Box m="20px">
@@ -345,7 +346,8 @@ const HomePage = () => {
               src="https://files.myglamm.com/site-images/original/Lips-3.png"
             />
             <Text fontSize={"md"} fontWeight="bold" m="5px">
-              Lips
+              <Link to={"/lipstick"}>Lips</Link>
+              
             </Text>
           </Box>
           <Box>
@@ -355,7 +357,8 @@ const HomePage = () => {
               src="https://files.myglamm.com/site-images/original/Superfoods-Model-120-X-120-px_2.jpg"
             />
             <Text fontSize={"md"} fontWeight="bold" m="5px">
-              Hairs
+              <Link to={"/products"} >Hairs</Link>
+              
             </Text>
           </Box>
           <Box>
@@ -365,7 +368,8 @@ const HomePage = () => {
               src="https://files.myglamm.com/site-images/original/Eyes-4.png"
             />
             <Text fontSize={"md"} fontWeight="bold" m="5px">
-              Eyes
+            <Link to={"/kajal"}>Eyes</Link>
+              
             </Text>
           </Box>
           <Box>
@@ -375,7 +379,8 @@ const HomePage = () => {
               src="https://files.myglamm.com/site-images/original/Face-5.png"
             />
             <Text fontSize={"md"} fontWeight="bold" m="5px">
-              Face
+            <Link to={"/facewash"}>Face</Link>
+              
             </Text>
           </Box>
           <Box>
@@ -395,7 +400,8 @@ const HomePage = () => {
               src="https://files.myglamm.com/site-images/original/App-PersonalCare_2.png"
             />
             <Text fontSize={"md"} fontWeight="bold" m="5px">
-              Sanitizing Care
+             
+              <Link to={"/foundation"}> Sanitizing Care</Link>
             </Text>
           </Box>
           <Box>
@@ -536,7 +542,7 @@ const HomePage = () => {
               src="https://files.myglamm.com/site-images/400x400/Facewash_3.jpg"
             />
             <Text fontSize={"sm"} fontWeight="500">
-              MyGlamm WIPEOUT Germ Killing Facewash
+              MyGlamm WIPEOUT Germ Killing
             </Text>
             <p style={{ fontSize: "13px" }}>
               Tea Tree Oil & Vitamin-E Infused Face wash
