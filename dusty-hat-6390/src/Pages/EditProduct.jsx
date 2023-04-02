@@ -11,12 +11,12 @@ import {
     Text,
     useColorModeValue,
   } from '@chakra-ui/react';
-import { useEffect, useState } from 'react';
+import {  useState } from 'react';
 import { useDispatch } from 'react-redux'
 import { useParams } from 'react-router-dom';
-import axios from 'axios';
+import { Edit_Product } from '../Redux/AdminReducer/action';
 
-  const InitialState={
+  let InitialState={
     type:"",
     name:"",
     image:"",
@@ -44,23 +44,30 @@ import axios from 'axios';
       })
     }
 
-     const EditGetProduct = (paramobj)=>{
-      axios.get(`http://localhost:8080/Products`,paramobj).then((res)=>{
-          console.log(res.data);
-  }).catch((er)=>{
-      console.log(er);
-  })
-  }
-    useEffect(()=>{
-      const obj={id}
-      EditGetProduct(obj)
-    },[])
+  //    const EditGetProduct = (id,InitialState)=>{
+  //     axios.get(`http://localhost:8080/Products?id=${id}`).then((res)=>{
+  //         // let data=res.data?.filter((el)=>{
+  //         //   if(id==el.id){
+  //         //     return el;
+  //         //   }
+  //         // })
+  //         InitialState=res.data
+  // }).catch((er)=>{
+  //     console.log(er);
+  // })
+  // }
+  //   useEffect(()=>{
+  //     EditGetProduct(id,InitialState)
+  //   },[])
+
     const handleEditProduct=()=>{
-    //   dispatch(addProduct(product,category))
-      setProduct(InitialState);
-      setCategory("")
+      // dispatch(Edit_Product(product,id,category))
+
+      // setProduct(InitialState);
+      // setCategory("")
+      console.log(product,id,category);
     }
-    console.log(id);
+
     return (
       <Flex
         minH={'100vh'}

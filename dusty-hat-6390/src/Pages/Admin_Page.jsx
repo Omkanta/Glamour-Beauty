@@ -82,6 +82,7 @@ import { Link } from 'react-router-dom';
     <option value='kajal'>Kajal</option>
     <option value='lipstick'>Lipstick</option>
     <option value='facewash'>Facewash</option>
+    <option value='foundation'>Foundation</option>
   </Select>
           <Input width={500} marginTop="20px" className = "searchAddress"  placeholder = "Search Data" onChange={handleOnchange}/>
   

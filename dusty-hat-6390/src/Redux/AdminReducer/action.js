@@ -30,3 +30,15 @@ export const addProduct=(data,category)=>(disptach)=>{
     })
 }
 
+export const Edit_Product=(EditData,id,category)=>(dispatch)=>{
+     axios.patch(`http://localhost:8080/Products/${id}`,EditData).then((res)=>{
+        console.log(res);
+    }).catch((er)=>{
+        
+    })
+    axios.patch(`http://localhost:8080/${category}/${id}`,EditData).then((res)=>{
+        console.log(res);
+    }).catch((er)=>{
+
+    })
+    }
