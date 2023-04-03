@@ -96,7 +96,7 @@ const Navbar = () => {
       {Width > 1100 && (
         <Box bg="#e9edc9">
           <Flex
-            p="10px 50px"
+            p="5px 30px"
             justifyContent={"space-between"}
             w="90%"
             m="auto"
@@ -141,7 +141,7 @@ const Navbar = () => {
             gap="10px"
           >
             <Image
-              w="20%"
+              w="15%"
               src="https://i.postimg.cc/vmxpvTLp/Glamour-Logo-cropped.jpg"
             />
             <Flex
@@ -306,7 +306,7 @@ const Navbar = () => {
           </Flex>
         </Box>
       ) : (
-        <Box bg="#ffffff" p="20px">
+        <Box bg="#ffffff" p="5px">
           <Flex
             justifyContent={"space-between"}
             alignItems="center"
@@ -319,7 +319,8 @@ const Navbar = () => {
               direction={["column", "row"]}
             >
               <Image
-                w="20%"
+                w="15%"
+                borderRadius='15px%'
                 src="https://i.postimg.cc/vmxpvTLp/Glamour-Logo-cropped.jpg"
               />
               <Flex
@@ -338,7 +339,7 @@ const Navbar = () => {
                   style={{
                     border: "none",
                     padding: "0px 10px",
-                    width: Width < 900 ? "200px" : "500px",
+                    width: Width < 900 ? "100px" : "350px",
                   }}
                   placeholder="Find Lipstick, Eyeliner, MakeUP tutorial, etc. "
                 />
@@ -416,6 +417,9 @@ const Navbar = () => {
                 </Text>
               </Box>
               <Box>
+                <Text className="navbar-items" onClick={() => navigate("/products")}>PRODUCTS</Text>
+              </Box>
+              <Box>
                 <Text
                   className="navbar-items"
                   onClick={() => navigate("/kajal")}
@@ -447,9 +451,7 @@ const Navbar = () => {
                   LIPSTICK
                 </Text>
               </Box>
-              <Box>
-                <Text className="navbar-items">SANITIZING CARE</Text>
-              </Box>
+              
               <Box>
                 <Text className="navbar-items">COLLECTION</Text>
               </Box>

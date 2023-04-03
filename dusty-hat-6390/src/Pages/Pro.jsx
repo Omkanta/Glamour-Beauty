@@ -30,6 +30,7 @@ import {BsFillCartCheckFill} from "react-icons/bs"
 import {FaSmileBeam} from "react-icons/fa"
 import { forToast } from '../Redux/authReducer/action';
 import { addToCart } from '../Redux/action';
+import axios from 'axios';
 
   export default function Pro() {
 
@@ -39,8 +40,11 @@ import { addToCart } from '../Redux/action';
     const {Products} = useSelector((store)=>store.ProductReducer)
   const navigate=useNavigate()
     useEffect(()=>{
-      const setid = Products.find((el)=>el.id===id)
-      setdetail(setid)
+      // const setid = Products.find((el)=>el.id===id)
+      axios.get(`http://localhost:8080/Products/${id}`).then((res)=>{
+
+        setdetail(res.data)
+      })
     },[])
   
     // console.log(detail)

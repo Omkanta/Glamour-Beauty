@@ -130,7 +130,7 @@ export const makePayment=()=>(dispatch)=>{
 export const getkajal = (paramobj)=>(dispatch)=>{
     dispatch({type:PRODUCT_REQ_PENDNG})
 
-    axios.get(`http://localhost:3000/kajal`,paramobj).then((res)=>{
+    axios.get(`http://localhost:8080/kajal`,paramobj).then((res)=>{
         dispatch({type:PRODUCT_REQ_SUCESS,payload:res.data})
     })
     .catch(()=>{
@@ -141,7 +141,7 @@ export const getkajal = (paramobj)=>(dispatch)=>{
 export const getFoundation = (paramobj)=>(dispatch)=>{
     dispatch({type:PRODUCT_REQ_PENDNG})
 
-    axios.get(`http://localhost:3000/foundation`,paramobj).then((res)=>{
+    axios.get(`http://localhost:8080/foundation`,paramobj).then((res)=>{
         dispatch({type:PRODUCT_REQ_SUCESS,payload:res.data})
     })
     .catch(()=>{
@@ -153,7 +153,7 @@ export const getFoundation = (paramobj)=>(dispatch)=>{
 export const getFacewash = (paramobj)=>(dispatch)=>{
     dispatch({type:PRODUCT_REQ_PENDNG})
 
-    axios.get(`http://localhost:3000/facewash`,paramobj).then((res)=>{
+    axios.get(`http://localhost:8080/facewash`,paramobj).then((res)=>{
         dispatch({type:PRODUCT_REQ_SUCESS,payload:res.data})
     })
     .catch(()=>{
@@ -164,7 +164,7 @@ export const getFacewash = (paramobj)=>(dispatch)=>{
 export const getLipbam = (paramobj)=>(dispatch)=>{
     dispatch({type:PRODUCT_REQ_PENDNG})
 
-    axios.get(`http://localhost:3000/lipstick`,paramobj).then((res)=>{
+    axios.get(`http://localhost:8080/lipstick`,paramobj).then((res)=>{
         dispatch({type:PRODUCT_REQ_SUCESS,payload:res.data})
     })
     .catch(()=>{
