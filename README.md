@@ -1,46 +1,89 @@
 # dusty-hat-6390
-![Glamour_logo](https://user-images.githubusercontent.com/112754465/229419647-827d978c-695c-4fa1-8639-7b08825205ff.png)
 
-# Myglamm.com
- - MyGlamm is a e-commerce website which offer variety of cosmetic products for women. The main goal of the website is to offer all kinds of cosmetic products of different types such as Lipstick, Makeup, facewash, etc.
- - The main headquartered in Mumbai, Maharashtra. Founded in October 2017, MyGlamm is part of the Good Glamm Group— South Asia's largest content-to-commerce beauty and personal care conglomerate.
+<img src="https://i.postimg.cc/GpBtSsjH/Glamour-Logo-cropped.jpg"/>
 
-# Team Member 
-- Om kanta Prasad Yadav
-- Animesh Ghoroi
-- Ankesh Kumar
-- Harsh Shukla
+# Glamour Beauty
 
-# Tech Stack 
-- React 
-- Chakra UI
-- JavaScript 
-- HTML
+> GLamour Beauty (Cosmetic Products Platform) is an React.js application designed to provide customers with a personalized easy-to-utilize user experience for purchasing products online. It stores customers' personal data and orders.
+
+> It has 5 modules Authentication, Admin, User, Add to Cart, Checkout.
+
+> Glamour Beauty application was built during the construct week at [Masai School](https://masaischool.com/). Completed the project in Four days with a team of five aspiring developers.
+
+# Screenshots
+
+# Homepage
+
+<img src='https://i.postimg.cc/Hsxr7K7w/Screenshot-2023-04-03-110522.png' />
+
+# Products Page
+
+<img src='https://i.postimg.cc/R0FmP54d/Screenshot-2023-04-03-110707.png'/>
+
+# Cart Page
+
+<img src='https://i.postimg.cc/W3G5gzCH/Screenshot-2023-04-03-110824.png' />
+
+# Payments Page
+
+<img src='https://i.postimg.cc/pd2rR6x5/Screenshot-2023-04-03-110921.png' />
+
+# Admins page
+
+<img src="https://i.postimg.cc/6Qk9Tbxh/Screenshot-2023-04-03-111046.png" />
+
+
+# Features
+
+- User authentication
+- Admin can register by giving all the details
+- Admin can provide details like product name, price, image
+- User can register by giving all the details
+- User can order products of its choice
+
+# Technology used
+
+- React.js
+- JavaScript
+- Chakra Ui
+- JSX
 - CSS
-- Json-Server
+- Git & GitHub
 - Axios
+- Redux
 
-# Deployed LInk 
-https://glamour-pi.vercel.app/
+# Modules
 
-# Pages & Features
-- Home page
-- Sign-up & Login Page
-- Product Page (Filter, sort Functionality)
-- Admin Page (Add,Edit Functionality)
+- Login Logout Module
+- Admin Module
+- Add and Delete module
+- User Module
+- Place order Module
+- Checkout Module
 
-# Snap Shots
-Home Page 
-![glamour home page](https://user-images.githubusercontent.com/112754465/229422220-977cd776-7c26-4da7-a660-cf1c275146ef.png)
+# Lessons Learned
 
-Login Page
-![glamour login page](https://user-images.githubusercontent.com/112754465/229422279-2f777d13-ad1d-46b8-a121-5b8b3cb715ca.png)
+- Gain excessive knowledge on application of Reacts.js
+- Gain knowledge on using API.
+- Got to know how to collabrate with team members while building a React application.
+- Enjoyed the process of learning and creating the application.
 
-Product Page
-![glamour product page](https://user-images.githubusercontent.com/112754465/229422321-c4ba17d4-a2c5-48d1-bc54-0b66acd53b97.png)
+# Contributor
 
-Admin Page
-![AdminPage](https://user-images.githubusercontent.com/112754465/229422356-a54f4bfa-a97a-408d-96bd-3ef7e4305293.jpeg)
+#### Om kanta Prasad Yadav
 
+> Github: [omkanta](https://github.com/Omkanta)
+> (Teamlead)
 
+#### Animesh Ghoroi
+
+> Github: [animesh-0041](https://github.com/animesh-0041)
+
+#### Harsh Shukla
+
+> Github: [harshshukla2002](https://github.com/harshshukla2002)
+
+#### Ankesh Kumar
+
+> Github: [Anku9053](https://github.com/Anku9053)
 
