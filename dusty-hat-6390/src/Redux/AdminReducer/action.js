@@ -39,6 +39,6 @@ export const Edit_Product=(EditData,id,category)=>(dispatch)=>{
     axios.patch(`http://localhost:8080/${category}/${id}`,EditData).then((res)=>{
         console.log(res);
     }).catch((er)=>{
-
+        console.log(er)
     })
     }

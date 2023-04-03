@@ -79,6 +79,7 @@ import { Link } from 'react-router-dom';
       <div >
           <Text fontSize={'2xl'} mt={'10px'}>View Product</Text>
           <Select placeholder='Select Category' w='20%' m='auto' mt='30px' value={category} onChange={(e)=>setcategory(e.target.value)}> 
+          <option value='Products'>All Products</option>
     <option value='kajal'>Kajal</option>
     <option value='lipstick'>Lipstick</option>
     <option value='facewash'>Facewash</option>

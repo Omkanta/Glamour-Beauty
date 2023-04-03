@@ -596,8 +596,8 @@
       "type": "facewash",
       "name": "Himalya Facewash",
       "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/c/dcd721e737534800041_1.jpg",
-      "price": 263,
-      "MRP": 299,
+      "price": 524,
+      "MRP": 656,
       "id": 75
     },
     {
@@ -2000,10 +2000,10 @@
   "facewash": [
     {
       "type": "facewash",
-      "name": "Himalya",
+      "name": "Himalya Facewash",
       "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/c/dcd721e737534800041_1.jpg",
-      "price": 263,
-      "MRP": 299,
+      "price": 524,
+      "MRP": 656,
       "id": "75"
     },
     {
@@ -2455,26 +2455,7 @@
       "lastname": "Ghoroi",
       "email": "n@gmail.com",
       "password": "123456",
-      "cartitem": [
-        {
-          "type": "foundation",
-          "name": "Nykaa SkinShield Anti-Pollution Matte Foundation",
-          "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/f/ef153f68904245707408_rev1.jpg",
-          "price": 400,
-          "MRP": 700,
-          "id": 1,
-          "quantity": 1
-        },
-        {
-          "type": "kajal",
-          "name": "Blue Heaven Herbal Kajal",
-          "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/9/c941190NYBH000000713_1.jpg",
-          "price": 60,
-          "MRP": 70,
-          "id": 8,
-          "quantity": 1
-        }
-      ],
+      "cartitem": [],
       "parchesitem": [
         {
           "type": "kajal",
