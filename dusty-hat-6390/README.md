@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# dusty-hat-6390
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="https://i.postimg.cc/GpBtSsjH/Glamour-Logo-cropped.jpg"/>
 
-## Available Scripts
+# Glamour Beauty
 
-In the project directory, you can run:
+> GLamour Beauty (Cosmetic Products Platform) is an React.js application designed to provide customers with a personalized easy-to-utilize user experience for purchasing products online. It stores customers' personal data and orders.
 
-### `npm start`
+> It has 5 modules Authentication, Admin, User, Add to Cart, Checkout.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> Glamour Beauty application was built during the construct week at [Masai School](https://masaischool.com/). Completed the project in Four days with a team of five aspiring developers.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Screenshots
 
-### `npm test`
+# Homepage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src='https://i.postimg.cc/Hsxr7K7w/Screenshot-2023-04-03-110522.png' />
 
-### `npm run build`
+# Products Page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img src='https://i.postimg.cc/R0FmP54d/Screenshot-2023-04-03-110707.png'/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Cart Page
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img src='https://i.postimg.cc/W3G5gzCH/Screenshot-2023-04-03-110824.png' />
 
-### `npm run eject`
+# Payments Page
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img src='https://i.postimg.cc/pd2rR6x5/Screenshot-2023-04-03-110921.png' />
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Admins page
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img src="https://i.postimg.cc/6Qk9Tbxh/Screenshot-2023-04-03-111046.png" />
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+# Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- User authentication
+- Admin can register by giving all the details
+- Admin can provide details like product name, price, image
+- User can register by giving all the details
+- User can order products of its choice
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Technology used
 
-### Code Splitting
+- React.js
+- JavaScript
+- Chakra Ui
+- JSX
+- CSS
+- Git & GitHub
+- Axios
+- Redux
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Modules
 
-### Analyzing the Bundle Size
+- Login Logout Module
+- Admin Module
+- Add and Delete module
+- User Module
+- Place order Module
+- Checkout Module
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Lessons Learned
 
-### Making a Progressive Web App
+- Gain excessive knowledge on application of Reacts.js
+- Gain knowledge on using API.
+- Got to know how to collabrate with team members while building a React application.
+- Enjoyed the process of learning and creating the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Contributor
 
-### Advanced Configuration
+#### Om kanta Prasad Yadav
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+> Github: [omkanta](https://github.com/Omkanta)
+> (Teamlead)
 
-### Deployment
+#### Animesh Ghoroi
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+> Github: [animesh-0041](https://github.com/animesh-0041)
 
-### `npm run build` fails to minify
+#### Harsh Shukla
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> Github: [harshshukla2002](https://github.com/harshshukla2002)
+
+#### Ankesh Kumar
+
+> Github: [Anku9053](https://github.com/Anku9053)
+
