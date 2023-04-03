@@ -10,7 +10,7 @@
 
 > Glamour Beauty application was built during the construct week at [Masai School](https://masaischool.com/). Completed the project in five days with a team of four aspiring developers.
 
-# Deloyment Link 
+# Deploy Link 
 https://glamour-animesh-0041.vercel.app
 
 # Screenshots
