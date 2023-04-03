@@ -45,13 +45,12 @@ import { Edit_Product } from '../Redux/AdminReducer/action';
     }
 
   //    const EditGetProduct = (id,InitialState)=>{
-  //     axios.get(`http://localhost:8080/Products?id=${id}`).then((res)=>{
+  //     axios.get(``).then((res)=>{
   //         // let data=res.data?.filter((el)=>{
   //         //   if(id==el.id){
   //         //     return el;
   //         //   }
   //         // })
-  //         InitialState=res.data
   // }).catch((er)=>{
   //     console.log(er);
   // })
@@ -61,7 +60,7 @@ import { Edit_Product } from '../Redux/AdminReducer/action';
   //   },[])
 
     const handleEditProduct=()=>{
-      // dispatch(Edit_Product(product,id,category))
+      dispatch(Edit_Product(product,id,category))
 
       // setProduct(InitialState);
       // setCategory("")

@@ -258,12 +258,12 @@ import {
   const NAV_ITEMS: Array<NavItem> = [
     {
       label: 'Home',
-        href:'admin_page',
+        href:'/admin_page',
     },
 
     {
       label: 'Add Item',
-      href: 'add_product',
+      href: '/add_product',
     },
     {
       label: ' User Details',
