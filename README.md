@@ -8,7 +8,7 @@
 
 > It has 5 modules Authentication, Admin, User, Add to Cart, Checkout.
 
-> Glamour Beauty application was built during the construct week at [Masai School](https://masaischool.com/). Completed the project in Four days with a team of five aspiring developers.
+> Glamour Beauty application was built during the construct week at [Masai School](https://masaischool.com/). Completed the project in five days with a team of four aspiring developers.
 
 # Screenshots
 
