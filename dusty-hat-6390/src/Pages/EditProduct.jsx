@@ -10,6 +10,7 @@ import {
     Heading,
     Text,
     useColorModeValue,
+    useToast
   } from '@chakra-ui/react';
 import {  useState } from 'react';
 import { useDispatch } from 'react-redux'
@@ -29,7 +30,7 @@ import { Edit_Product } from '../Redux/AdminReducer/action';
     const [product,setProduct]=useState(InitialState);
     const dispatch = useDispatch()
     const {id}=useParams()
-
+const toast=useToast()
     const handleChange=(e)=>{
       let {name,value}=e.target;
         if(name=="MRP"){
@@ -60,7 +61,7 @@ import { Edit_Product } from '../Redux/AdminReducer/action';
   //   },[])
 
     const handleEditProduct=()=>{
-      dispatch(Edit_Product(product,id,category))
+      dispatch(Edit_Product(product,id,category,toast))
 
       // setProduct(InitialState);
       // setCategory("")

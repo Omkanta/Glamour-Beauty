@@ -267,6 +267,6 @@ import {
     },
     {
       label: ' User Details',
-      href: '#',
+      href: 'users',
     },
   ];

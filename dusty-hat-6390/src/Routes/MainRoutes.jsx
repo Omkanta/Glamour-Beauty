@@ -21,6 +21,7 @@ import { Facewash } from "../Component/Facewash";
 import AddProduct from "../Pages/AddProduct";
 import { UserProfile } from "../Pages/UserProfile";
 import EditProduct from "../Pages/EditProduct";
+import {UsersDetail} from "../Pages/UsersDetail"
 const MainRoutes = () => {
   return (
     <Routes>
@@ -52,9 +53,11 @@ const MainRoutes = () => {
       <Route path="/facewash" element={<Facewash />} />
       <Route path="/foundation" element={<Foundation />} />
       <Route path="/add_product" element={<AddProduct />} />
-
+      <Route path="/users" element={<UsersDetail/>} />
+      
       <Route path="*" element={<NotFound />}></Route>
       <Route path="/edit/:id" element={<EditProduct />}/>
+      
     </Routes>
   );
 };

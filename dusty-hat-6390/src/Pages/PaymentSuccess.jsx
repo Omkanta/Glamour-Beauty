@@ -14,7 +14,7 @@ const PaymentSuccess = () => {
       <Text color={'gray.500'}>
        Thanks for buying👍
       </Text>
-      <Text color={'blue'} _hover={{textDecoration:"underline"}}><Link to={'/products'} >Continue to shoping</Link></Text>
+      <Text color={'blue'} _hover={{textDecoration:"underline"}}><Link to={'/'} >Continue to shoping</Link></Text>
       
     </Box>
   )
