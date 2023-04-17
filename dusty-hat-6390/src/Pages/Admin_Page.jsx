@@ -15,6 +15,7 @@ import {Text} from '@chakra-ui/react'
     Td,
     TableContainer,
     Image,
+    useToast
   } from '@chakra-ui/react';
   import { Input } from '@chakra-ui/react'
 import { Link } from 'react-router-dom';
@@ -23,7 +24,7 @@ import { Link } from 'react-router-dom';
    
     const [category,setcategory]=useState("")
   const[data,setData]=useState([])
-  
+  const toast=useToast()
   
   function getData(){
     if(category){
@@ -64,7 +65,14 @@ import { Link } from 'react-router-dom';
     axios.delete(`http://localhost:8080/${category}/${id}`)
     .then(function (response) {
       console.log(response);
-      getData()
+      getData();
+      toast({
+        title: 'Deleted successfull.',
+        status: 'success',
+        duration: 3000,
+        position:'top',
+        isClosable: true,
+      })
     })
     .catch(function (error) {
       console.log(error);

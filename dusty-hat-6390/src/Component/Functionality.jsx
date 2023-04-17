@@ -62,6 +62,7 @@ const Functionality = () => {
  
       <Popover placement="bottom" isLazy>
         <PopoverTrigger>
+          
           <IconButton  w={"100%"}
             aria-label="More server options"
             
@@ -70,7 +71,7 @@ const Functionality = () => {
             variant="solid"
             // w="fit-content"
           />
-          
+        
         </PopoverTrigger>
         <PopoverContent w="fit-content" _focus={{ boxShadow: 'none' }}>
           <PopoverArrow />

@@ -13,11 +13,18 @@ return axios.post(`https://reqres.in/api/login`,adminData).then((res)=>{
 })
 }
 
-export const addProduct=(data,category)=>(disptach)=>{
+export const addProduct=(data,category,toast)=>(disptach)=>{
     disptach({type:ADD_PRODUCT_REQUEST});
     axios.post(`http://localhost:8080/${category}`,data).then((res)=>{
         disptach({type:ADD_PRODUCT_SUCCESS})
-        console.log(res);
+        // console.log(res);
+        toast({
+            title: 'Item added successfull.',
+            status: 'success',
+            duration: 3000,
+            position:'top',
+            isClosable: true,
+          })
     }).catch((er)=>{
         console.log(er);
         disptach({type:ADD_PRODUCT_FAILURE});
@@ -30,9 +37,16 @@ export const addProduct=(data,category)=>(disptach)=>{
     })
 }
 
-export const Edit_Product=(EditData,id,category)=>(dispatch)=>{
+export const Edit_Product=(EditData,id,category,toast)=>(dispatch)=>{
      axios.patch(`http://localhost:8080/Products/${id}`,EditData).then((res)=>{
-        console.log(res);
+        // console.log(res);
+        toast({
+            title: 'Edited successfull.',
+            status: 'success',
+            duration: 3000,
+            position:'top',
+            isClosable: true,
+          })
     }).catch((er)=>{
         
     })
